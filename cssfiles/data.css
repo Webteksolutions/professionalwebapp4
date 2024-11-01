@@ -1,0 +1,320 @@
+.section2banners1{
+    background-image: url("../images/sub/b.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    }
+    .section2banners1 .innerdata{
+        background-color: rgba(0,0,0,0.3);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 60%;
+      /* border: 3px solid #73AD21; */
+      padding: 10px;
+      text-align: center;
+      padding: 20px 0;
+      color: #fff;
+    }
+    /*  */
+    .section2banners1 .innerdata .mycont .myrrow .col-4 p{
+      text-align:center;
+    }
+    .section2banners1 .innerdata .mycont .myrrow .col-4 i{
+      font-size:50px;
+        }
+    @media(max-width:550px){
+      .section2banners1 .innerdata .mycont .myrrow .col-4 i{
+    font-size:16px;
+      }
+      .section2banners1 .innerdata .mycont .myrrow .col-4 p{
+       font-size: 5px;
+      }
+    }
+    /* pool party */
+    .section2banners2{
+        background-image: url("../images/sub/p.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 600px;
+        position: relative;
+        }
+        .section2banners2 .innerdata{
+            background-color: rgba(0,0,0,0.3);
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 60%;
+          /* border: 3px solid #73AD21; */
+          padding: 10px;
+          text-align: center;
+          padding: 20px 0;
+          color: #fff;
+        }
+        /*  */
+        .section2banners2 .innerdata .mycont .myrrow .col-4 p{
+          text-align:center;
+        }
+        .section2banners2 .innerdata .mycont .myrrow .col-4 i{
+          font-size:50px;
+            }
+        @media(max-width:550px){
+          .section2banners2 .innerdata .mycont .myrrow .col-4 i{
+        font-size:16px;
+          }
+          .section2banners2 .innerdata .mycont .myrrow .col-4 p{
+           font-size: 5px;
+          }
+        }
+    /*  */
+
+
+
+    /*  weeding*/
+    .section2banners3{
+        background-image: url("../images/sub/w.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 600px;
+        position: relative;
+        }
+        .section2banners3 .innerdata{
+            background-color: rgba(0,0,0,0.3);
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 60%;
+          /* border: 3px solid #73AD21; */
+          padding: 10px;
+          text-align: center;
+          padding: 20px 0;
+          color: #fff;
+        }
+        /*  */
+        .section2banners3 .innerdata .mycont .myrrow .col-4 p{
+          text-align:center;
+        }
+        .section2banners3 .innerdata .mycont .myrrow .col-4 i{
+          font-size:50px;
+            }
+        @media(max-width:550px){
+          .section2banners3 .innerdata .mycont .myrrow .col-4 i{
+        font-size:16px;
+          }
+          .section2banners3 .innerdata .mycont .myrrow .col-4 p{
+           font-size: 5px;
+          }
+        }
+    /*  */
+
+
+    /* pool */
+    .section2banners4{
+        background-image: url("../images/qq.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+        position: relative;
+        }
+        .section2banners4 .innerdata{
+          position: absolute;
+          background-color: rgba(0,0,0,0.3);
+      
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 60%;
+          /* border: 3px solid #73AD21; */
+          padding: 10px;
+          text-align: center;
+          padding: 20px 0;
+          color: #fff;
+        }
+        /*  */
+        .section2banners4 .innerdata .mycont .myrrow .col-4 p{
+          text-align:center;
+        }
+        .section2banners4 .innerdata .mycont .myrrow .col-4 i{
+          font-size:50px;
+            }
+        @media(max-width:550px){
+          .section2banners4 .innerdata .mycont .myrrow .col-4 i{
+        font-size:16px;
+          }
+          .section2banners4 .innerdata .mycont .myrrow .col-4 p{
+           font-size: 5px;
+          }
+        }
+/*  */
+.section2banners5{
+    background-image: url("../images/sub/d.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    }
+    .section2banners5 .innerdata{
+        background-color: rgba(0,0,0,0.3);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 60%;
+      /* border: 3px solid #73AD21; */
+      padding: 10px;
+      text-align: center;
+      padding: 20px 0;
+      color: #fff;
+    }
+    /*  */
+    .section2banners5 .innerdata .mycont .myrrow .col-4 p{
+      text-align:center;
+    }
+    .section2banners5 .innerdata .mycont .myrrow .col-4 i{
+      font-size:50px;
+        }
+    @media(max-width:550px){
+      .section2banners5 .innerdata .mycont .myrrow .col-4 i{
+    font-size:16px;
+      }
+      .section2banners5 .innerdata .mycont .myrrow .col-4 p{
+       font-size: 5px;
+      }
+    }
+
+    /* port  */
+    .section2banners6{
+        background-image: url("../images/sub/p.jpg");
+
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+        position: relative;
+        }
+        .section2banners6 .innerdata{
+            background-color: rgba(0,0,0,0.3);
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 60%;
+          /* border: 3px solid #73AD21; */
+          padding: 10px;
+          text-align: center;
+          padding: 20px 0;
+          color: #fff;
+        }
+        /*  */
+        .section2banners6 .innerdata .mycont .myrrow .col-4 p{
+          text-align:center;
+        }
+        .section2banners6 .innerdata .mycont .myrrow .col-4 i{
+          font-size:50px;
+            }
+        @media(max-width:550px){
+          .section2banners6 .innerdata .mycont .myrrow .col-4 i{
+        font-size:16px;
+          }
+          .section2banners6 .innerdata .mycont .myrrow .col-4 p{
+           font-size: 5px;
+          }
+        }
+    
+
+
+
+        /*  */
+         /* port  */
+    .section2banners7{
+        background-image: url("../images/sbanner2.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+        position: relative;
+        }
+        .section2banners7 .innerdata{
+            background-color: rgba(0,0,0,0.3);
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 60%;
+          /* border: 3px solid #73AD21; */
+          padding: 10px;
+          text-align: center;
+          padding: 20px 0;
+          color: #fff;
+        }
+        /*  */
+        .section2banners7 .innerdata .mycont .myrrow .col-4 p{
+          text-align:center;
+        }
+        .section2banners7 .innerdata .mycont .myrrow .col-4 i{
+          font-size:50px;
+            }
+        @media(max-width:550px){
+          .section2banners7 .innerdata .mycont .myrrow .col-4 i{
+        font-size:16px;
+          }
+          .section2banners7 .innerdata .mycont .myrrow .col-4 p{
+           font-size: 5px;
+          }
+        }
+    
+
+
+        /*  */
+         /* port  */
+    .section2banners8{
+        background-image: url("../images/fashion/b2.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+        position: relative;
+        }
+        .section2banners8 .innerdata{
+          position: absolute;
+          background-color: rgba(0,0,0,0.3);
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 60%;
+          /* border: 3px solid #73AD21; */
+          padding: 10px;
+          text-align: center;
+          padding: 20px 0;
+          color: #fff;
+        }
+        /*  */
+        .section2banners8 .innerdata .mycont .myrrow .col-4 p{
+          text-align:center;
+        }
+        .section2banners8 .innerdata .mycont .myrrow .col-4 i{
+          font-size:50px;
+            }
+        @media(max-width:550px){
+          .section2banners8 .innerdata .mycont .myrrow .col-4 i{
+        font-size:16px;
+          }
+          .section2banners8 .innerdata .mycont .myrrow .col-4 p{
+           font-size: 5px;
+          }
+        }
+    

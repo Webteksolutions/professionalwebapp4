@@ -1,0 +1,605 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/*  */
+
+/*  */
+.section2banners .innerdata .wrapper .bttnof:hover{
+box-shadow: 2px 8px 15px bLACk;
+}
+/*  */
+@media(max-width:756px){
+    .sectiontop .container-fluid .row .col-4 .row .col-md-6 p{
+        font-size: 5px;
+    }
+}
+/*  */
+
+.sectiontop .container-fluid .row .col-4 .row .col-md-6{
+    color: #fff;
+    font-size: 12px;
+    text-align: right;
+}
+.sectiontop .container-fluid .row .col-4 .row .col-md-6 p{
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sectiontop .container-fluid .row .col-8{
+    background-color: bLACk;
+}
+/* top banner */
+
+.section2banners{
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    }
+    .section2banners .innerdata{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 60%;
+      /* border: 3px solid #73AD21; */
+      padding: 10px;
+      text-align: center;
+      padding: 20px 0;
+      color: #fff;
+    }
+    /*  */
+    .section2banners .innerdata .mycont .myrrow .col-4 p{
+      text-align:center;
+    }
+    .section2banners .innerdata .mycont .myrrow .col-4 i{
+      font-size:50px;
+        }
+    @media(max-width:550px){
+      .section2banners .innerdata .mycont .myrrow .col-4 i{
+    font-size:16px;
+      }
+      .section2banners .innerdata .mycont .myrrow .col-4 p{
+       font-size: 5px;
+      }
+    }
+    /* whats app/cal */
+     /* 11111111111111111111111111111111111111 enquiry pulse */
+  .centerwala .pulsewala{
+    width: 50px;
+    height: 50px;
+    background:#dc3545;
+    position:fixed;
+    left: 10px;
+    bottom: 15px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    
+    font-family: Verdana;
+    animation: myanimatedataone 3s linear infinite;
+    z-index: 11111111111111111111111111;
+   
+  }
+  @keyframes myanimatedataone {
+    0%{
+      box-shadow: 0 0 0 0 rgba(245, 245, 219, 0.7), 0 0 0 0 rgba(220,53,69,.7);  
+    }
+    40%{
+        box-shadow: 0 0 0 50px rgba(255,109,74,0), 0 0 0 0 rgba(220,53,69,.7);  
+    }
+    80%{
+        box-shadow: 0 0 0 50px rgba(255,109,74,0), 0 0 0 30px rgba(255,109,74,0);  
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(255,109,74,0), 0 0 0 30px rgba(255,109,74,0);  
+    }
+  }
+  /* whatsapp */
+  .centerwalatwo .pulsewalatwo{
+    width: 52px;
+    height: 52px;
+    /* background: green; */
+    position:fixed;
+    left: 10px;
+    bottom: 100px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+    font-family: Verdana;
+    animation: myanimatedata 3s linear infinite;
+    z-index: 11111111111111111111111111;
+    }
+  
+    @keyframes myanimatedata {
+    0%{
+      box-shadow: 0 0 0 0 rgba(0,255,74,.7), 0 0 0 0 rgba(0,255,74,.7);  
+    }
+    40%{
+        box-shadow: 0 0 0 50px rgba(255,109,74,0), 0 0 0 0 rgba(0,255,0,.7);  
+    }
+    80%{
+        box-shadow: 0 0 0 50px rgba(255,109,74,0), 0 0 0 30px rgba(255,109,74,0);  
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(255,109,74,0), 0 0 0 30px rgba(255,109,74,0);  
+    }
+    }
+
+    /* about */
+ 
+    .aboutdatasection .myrowabout .leftcolabout h2{
+        font-size: 35px;
+        font-weight: 800;
+    }
+    /*  */
+    .sectionofdivide .row .mybgchit{
+      background-image: url("../images/background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      position: relative;
+      height: auto;
+  }
+  .sectionofdivide .row .mybgchit .showcase{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+      /* border: 3px solid #73AD21; */
+      /* padding: 10px; */
+      text-align: center;
+      padding: 5px 0;
+      color: #fff;
+  }
+    .sectionofdivide .row .col-md-4 .consultingdata{
+        padding: 5px;
+    }
+    .sectionofdivide .row .col-md-4 .consultingdata h3{
+        padding-top: 6px;
+        color: #fff;
+    }
+    .sectionofdivide .row .col-md-4 .consultingdata p{
+        padding-top: 5px;
+  
+        color: #fff;
+    }
+    .aboutdatasection .myrowabout .leftcolabout{
+        position: relative;
+    }
+    .aboutdatasection .myrowabout .leftcolabout .btn{
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      box-shadow: 2px 5px 8px #dc3545;
+  }
+  .aboutdatasection .myrowabout .leftcolabout .btn:hover{
+box-shadow: none;
+  }
+    .aboutdatasection .myrowabout .leftcolabout .customshap{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+        height: 90%;
+        background-color: rgba(220,53,69,.05);
+        z-index: -1;
+        border-radius: 86% 51% 60% 70% / 100% 100% 69% 1%  ;
+    }
+    .aboutdatasection .myrowabout .leftcolabout .customshaptwo{
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 89px;
+      height: 80px;
+      background-color: rgba(220,53,69,.1);
+      z-index: -1;
+      border-radius:50%;
+  }
+    /* animation for div updown  */
+    .customshaptwo {
+      -webkit-animation: mover 1s infinite  alternate;
+      animation: mover 1s infinite  alternate;
+  }
+  .customshaptwo {
+      -webkit-animation: mover 1s infinite  alternate;
+      animation: mover 1s infinite  alternate;
+  }
+  @-webkit-keyframes mover {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-20px); }
+  }
+  @keyframes mover {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-20px); }
+  }
+  /* portpholio */
+  .sectionoflatestwork{
+    position: relative;
+    background-image: url("../images/backgroud.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+  
+  }
+
+  .sectionoflatestwork .bubbledance{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(220,53,69,.1);
+  
+    border-radius:50%;
+  }
+  .sectionoflatestwork .bubbledance {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+.sectionoflatestwork .bubbledance {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+/* bubble 2 */
+.sectionoflatestwork .bubbledancetwo{
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(220,53,69,.1);
+
+  border-radius:50%;
+}
+.sectionoflatestwork .bubbledancetwo {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+.sectionoflatestwork .bubbledanceywo {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+/* endbubble2 */
+  .sectionoflatestwork .overdata{
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  
+  }
+  .sectionoflatestwork .myrow{
+    padding: 50px;
+  }
+  /*  */
+  /*  */
+.boxo{
+  position: relative;
+  width: 100%;
+  height: 300px;
+ 
+}
+.boxo:hover{
+box-shadow: 5px 10px 18px #dc3545;
+ 
+}
+.boxo .imgBoxo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.boxo .imgBoxo img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.boxo .imgBoxo:hover img{
+  opacity: 0;
+}
+.boxo .content{
+  position: absolute;
+  bottom: 0px;
+  left:10%;
+  width: 80%;
+  height: 60px;
+  background: #dc3545;
+  transition: 0.5s;
+  overflow: hidden;
+  padding: 15px;
+  box-sizing: border-box;
+ color: #ffffff;
+}
+.boxo .content h2{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  
+}
+.boxo .content p{
+  margin: 10px 0 0;
+  padding: 0;
+  opacity: 0;
+  line-height: 1.2em;
+  transition: 0.5s;
+  text-align: justify;
+}
+.boxo .content:hover p{
+ opacity: 1;
+ transition-delay: 0.5s;
+}
+.boxo:hover .content{
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+/*  */
+.containerqa{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 25px;
+  background-color: #fff;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 12px 5px rgba(0, 0, 0, 0.05);
+
+}
+.containerqa h2{
+  margin: 10px 2px 25px;
+  font-size: 20px;
+}
+.containerqa .item{
+  margin: 15px 0px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.containerqa > div:nth-child(2){
+  background-color: #e8eef5;
+  border-left: 4px solid #21b1ea;
+}
+
+.containerqa > div:nth-child(3){
+  background-color: #f5e8e8;
+  border-left: 4px solid #ea2121;
+}
+
+.containerqa > div:nth-child(4){
+  background-color: #efeeed;
+  border-left: 4px solid #eaa421;
+}
+
+.containerqa > div:nth-child(5){
+  background-color: #eee3ef;
+  border-left: 4px solid #21b1ea;
+}
+
+.containerqa > div:nth-child(6){
+  background-color: #eaeae0;
+  border-left: 4px solid #c5c51c;
+}
+/* managging the question section */
+.containerqa .item .question{
+  position: relative;
+  padding: 10px 0px;
+  padding-left: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #222;
+  cursor: pointer;
+}
+/* adding the + sign before the question */
+.containerqa .item .question:before{
+  content: "+";
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: #555;
+  transition: all 300ms ease-in-out;
+}
+.containerqa .item .answer{
+  max-height: 0px;
+  overflow: hidden;
+  font-size: 15px;
+  color: #222;
+  transition: max-height 300ms linear;
+}
+.containerqa .item .answer > * {
+  margin: 5px 40px 15px;
+}
+/* rotating the + sign 135deg */
+.containerqa .item.active .question:before{
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+.containerqa .item.active .answer{
+  max-height: 500px;
+}
+/* FOOTER */
+/* footer */
+.footer{
+  
+  background-color:bLACk;
+}
+
+.myfooter #footer .socialsection .social-links .fa-instagram{
+  color: #e84393;
+ background-color: #fff;
+  margin: 2px;
+  padding: 5px;
+
+  transition: all 2s;
+}
+.myfooter #footer .socialsection .social-links .fa-instagram:hover{
+  transform: scale(2);
+}
+.myfooter #footer .socialsection .social-links .fa-youtube{
+  color: #e84118;
+  margin: 2px;
+  background-color: #fff;
+  padding: 5px;
+
+  transition: all 2s;
+}
+.myfooter #footer .socialsection .social-links .fa-youtube:hover{
+  transform: scale(2);
+}
+.myfooter #footer .socialsection .social-links .fa-facebook{
+  background-color: #fff;
+  padding: 5px;
+  margin: 2px;
+
+  transition: all 2s;
+  
+}
+.myfooter #footer .socialsection .social-links .fa-facebook:hover{
+  transform: scale(2);
+}
+.myfooter #footer .socialsection .social-links .fa-linkedin{
+  background-color: #fff;
+  margin: 2px;
+  padding: 5px;
+
+  transition: all 2s;
+}
+.myfooter #footer .socialsection .social-links .fa-linkedin:hover{
+  transform: scale(2);
+}
+.myfooter #footer .socialsection .social-links .fa-twitter{
+  background-color: #fff;
+  margin: 2px;
+  padding: 5px;
+
+  transition: all 2s;
+}
+.myfooter #footer .socialsection .social-links .fa-twitter:hover{
+  transform: scale(2);
+}
+/* menu bar */
+.sectionofnavbar .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover{
+border-top: 3px solid #dc3545;
+border-bottom: 3px solid #dc3545;
+color: #dc3545;
+transition: 1s;
+}
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+.sectionone .navbar .navbar-toggler {
+color: #dc3545;  
+border-color:#dc3545;
+background-color: #dc3545;
+}
+@media(max-width:991px){
+  .sectionone .navbar .navbar-brand{
+      font-size: 12px;
+  }
+}
+.sectionone .carousel .carousel-inner .carousel-item{
+  height: 460px;
+}
+/* code for top carosel img one */
+.sectionone .carousel .carousel-inner .carousel-item .mybannerscrol{
+background-image: url('../images/mysiteone.jpg');
+-webkit-background-size:cover;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height:auto;
+}
+/* code for top carosel img two */
+.sectionone .carousel .carousel-inner .carousel-item .mybannerscrolone{
+  background-image: url('../images/mysiteone.jpg');
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height:400px;
+}
+/* code for top carosel img three */
+.sectionone .carousel .carousel-inner .carousel-item .mybannerscroltwo{
+  background-image: url('../images/background.jpg');
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height:400px;
+}
+.sectionone .carousel .carousel-inner .carousel-item .carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+  font-family: poppins;
+ 
+}
+.sectionone .carousel .carousel-inner .carousel-item .carousel-caption h5{
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@media only screen and (max-width:767px){
+  .sectionone .carousel .carousel-inner .carousel-item .carousel-caption h5{
+  font-size: 20px;
+  }
+}
+.sectionone .carousel .carousel-inner .carousel-item .carousel-caption .myspan{
+color: #dc3545; 
+}
+.sectionone .carousel .carousel-inner .carousel-item .carousel-caption a{
+  background: #dc3545;
+  padding:15px 35px;
+  display: inline-block;
+  margin-top: 15px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  color: #fff;
+  
+}
+
+.sectionone .carousel .carousel-indicators .active{
+background-color: #dc3545;
+}
+/*  */
+.sectionofnavbar .navbar .container-fluid .collapse .navbar-nav .dropdown:hover>.dropdown-menu{
+  display: block;
+}
+@media(max-width:950px){
+  .sectiontop .container-fluid .row .col-4 .bg-danger .row .myemail{
+display: none ;
+  }
+}
+@media(max-width:950px){
+ #mmmemail{
+   display: none;
+ }
+}
+    
+  

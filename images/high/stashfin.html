@@ -1,0 +1,4909 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)https://www.stashfin.com/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript" async="" src="https://cdn.yellowmessenger.com/plugin/latest/dist/main.min.js"></script><script type="text/javascript" src="https://bam.nr-data.net/1/NRJS-2f7d71d18eb2f3cec98?a=800718848&amp;v=1216.487a282&amp;to=NAEGZkFTXEpRW0QLXQ1LJVFHW11XH3BfD1dMDQpWVko%3D&amp;rst=37177&amp;ck=1&amp;ref=https://www.stashfin.com/&amp;ap=19&amp;be=4006&amp;fe=33266&amp;dc=15651&amp;perf=%7B%22timing%22:%7B%22of%22:1652877621784,%22n%22:0,%22f%22:10,%22dn%22:10,%22dne%22:10,%22c%22:10,%22ce%22:10,%22rq%22:2847,%22rp%22:3861,%22rpe%22:3984,%22dl%22:3943,%22di%22:11686,%22ds%22:15651,%22de%22:15653,%22dc%22:33265,%22l%22:33265,%22le%22:33288%7D,%22navigation%22:%7B%7D%7D&amp;fp=4140&amp;fcp=7880&amp;at=GEYFEAlJT0Q%3D&amp;jsonp=NREUM.setToken"></script><script type="text/javascript" async="" src="https://app.yellowmessenger.com/widget/main.js"></script><script src="https://js-agent.newrelic.com/nr-1216.min.js"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/M-QqaF9xk6BpjLH22uHZRhXt/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-/iQ3pP5Zp4fD1rguiVgUcA3QJDibOZveudin4X8yHdfRi2QqesZ/FnO4f4VjeD8/"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-JNG2SCXF1L&amp;l=dataLayer&amp;cx=c"></script><script src="https://connect.facebook.net/signals/config/1931190103774698?v=2.9.60&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-2f7d71d18eb2f3cec98",applicationID:"800718848"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPLACe=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPLACe=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personal Loan - Apply for Quick and Easy Personal Loans Online</title>
+<meta name="description" content="Personal Loan : Apply for instant personal loans online from StashFin and get easy loan approval with lowest interest rates and flexi EMI options. Apply Now!">
+<meta name="keywords" content="personal loan, personal loans, apply for personal loan, personal loan interest rates, personal loan online, best personal loan, StashFin">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"><link rel="stylesheet" href="./stashfin_files/jquery-ui.css" type="text/css"><link rel="canonical" href="https://www.stashfin.com/">
+<meta name="robots" content="INDEX, FOLLOW">
+<link rel="alternate" href="https://www.stashfin.com/" hreflang="en-IN">
+<meta name="google" content="nositelinkssearchbox">
+
+<link rel="icon" href="https://static.stashfin.com/website/assets/images/favicon.ico">
+
+
+<link rel="stylesheet" type="text/css" href="./stashfin_files/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./stashfin_files/aos.css">
+
+<link rel="stylesheet" type="text/css" href="./stashfin_files/styles.css">
+<link rel="stylesheet" type="text/css" href="./stashfin_files/custom_homepage.css">
+<link rel="stylesheet" type="text/css" href="./stashfin_files/newDesign.css">
+<link rel="preload" href="https://www.stashfin.com/assets/css/webfont/AvenirNextLTPro-Regular.woff" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="https://www.stashfin.com/assets/css/webfont/AvenirNextLTPro-Bold.woff" as="font" type="font/woff2" crossorigin="">
+
+<script>
+		var base_url = "https://www.stashfin.com/"
+	</script>
+
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=renderReCaptcha&amp;render=explicit"></script><style type="text/css">:root {
+  --closeImage: '';
+}
+
+.chat-open{
+  margin: 0px;
+}
+#ymFrameHolder {
+  display: none;
+  right: 20px;
+  bottom:95px;
+  position: fixed;
+  width: 370px;
+  min-width: 320px;
+  border-radius: 8px;
+  z-index: 99999;
+  background: white;
+  -webkit-box-shadow: 0 5px 40px rgba(0,0,0,.16)!important;
+  -moz-box-shadow: 0 5px 40px rgba(0,0,0,.16)!important;
+  box-shadow: 0 5px 40px rgba(0,0,0,.16)!important;
+  line-height: 0.6;
+}
+
+#ymIframe {
+  border: none;
+  width: 100%;
+  height: calc(100vh - 120px);
+  max-height: 600px;
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-width: 768px){
+  #ymFrameHolder {
+    width: auto;
+    right: 0 !important;
+    bottom:0 !important;
+    top:0 !important;
+    left:0 !important;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    height: 100% !important;
+    position: fixed;
+  }
+
+  #ymFrameHolder.left{
+    /*right: auto !important;*/
+    left: 0 !important;
+  }
+
+  #ymIframe {
+    border: none !important;
+    min-height: 100% !important;
+    bottom:0 !important;
+    z-index: 999999999;
+    overflow:hidden;
+    height:100% !important;
+    width:100% !important;
+  }
+
+  body.chat-open{
+    position: fixed;
+  }
+  .ym-img-holder .ym-zoom-in{
+    left: 44vw !important;
+  }
+  .ym-img-holder .ym-zoom-out{
+    left: 56vw !important;
+  }
+}
+
+#ymDivCircle.open{
+  background-image: url("https://cdn.yellowmessenger.com/files/images/close.png") !important;
+  background-image: var(--closeImage) !important;
+  -webkit-transition: background-image 300ms ease-in-out;
+  -moz-transition: background-image 300ms ease-in-out;
+  -o-transition: background-image 300ms ease-in-out;
+  transition: background-image 300ms ease-in-out;
+}
+
+#ymDivCircle {
+  display: none;
+  z-index: 99999;
+  width: 60px;
+  height: 60px;
+  background: #4384f5;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 5px 40px rgba(0,0,0,.5)!important;
+  -moz-box-shadow: 0 5px 40px rgba(0,0,0,.5)!important;
+  box-shadow: 0 5px 40px rgba(0,0,0,.5)!important;
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-image: url("https://cdn.yellowmessenger.com/T30Ya9q28aXo1568730999153.svg");
+  background-size: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: background-image 300ms ease-in-out;
+  -moz-transition: background-image 300ms ease-in-out;
+  -o-transition: background-image 300ms ease-in-out;
+  transition: background-image 300ms ease-in-out;
+}
+
+
+#ymDivCircle.left{
+  right: auto;
+  left: 20px;
+}
+
+#ymFrameHolder.left{
+  right: auto;
+  left: 20px;
+}
+
+#ymDivCircle img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #4384f5;
+  padding: 0;
+}
+
+#ymDivCircle img:hover{
+  filter: brightness(96%);
+}
+
+
+#ymDivCircle.open img{
+  display: none;
+}
+
+#ymDivCircle.square{
+  border-radius: 15%;
+}
+
+.removeBackground{
+  background: none !important;
+}
+
+#ymDivCircle.noneDisplay{
+  display: none;
+}
+
+#ymDivCircle.removeBoxShadow{
+  box-shadow: none !important;
+}
+
+#ymDivCircle.square img{
+  border-radius: 15%;
+}
+
+#ymDivCircle.autoHeight{
+  height: auto;
+}
+
+#ym-notification .ym-close{
+  position: absolute;
+  top: 2px;
+  right: 5px;
+}
+
+#ym-notification.ym-hidden{
+  display: none;
+}
+
+#ym-notification.hide{
+  display: none;
+}
+
+
+#ym-notification{
+  bottom: 95px;
+  font-family: "botplatform-font", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  max-width: 300px;
+  padding: 15px;
+  font-size: 14px;
+  text-align: left;
+  background: #ffffff;
+  min-height: 20px;
+  -webkit-box-shadow: 1px 1px 10px #999!important;
+  -moz-box-shadow: 1px 1px 10px #999!important;
+  box-shadow: 1px 1px 10px #999!important;
+  box-sizing: border-box;
+  z-index: 9999999999;
+  background-size: 70px;
+  line-height: 1.4;
+  color: #485256;
+  position: fixed;
+  right: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 0;
+  word-break:break-word;
+
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#ym-notification.left{
+  right: auto;
+  left: 20px;
+}
+
+#ym-notification.left-side{
+  right: 95px;
+  left: auto;
+  bottom: 24px;
+  height: 55px;
+  width: 300px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 10px 20px 0 10px;
+  border-bottom: solid 10px rgba(0, 0, 0, 0);
+  max-width: calc(100vw - 105px);
+}
+
+
+
+/* --------------------------------
+
+xnugget info
+
+-------------------------------- */
+
+/* --------------------------------
+
+Main Components
+
+-------------------------------- */
+
+.ym-close, 
+.ym-close::before, 
+.ym-close::after {
+  -webkit-box-sizing: initial !important;
+  box-sizing: initial !important;
+}
+
+.ym-zoom, 
+.ym-zoom::before, 
+.ym-zoom::after {
+  -webkit-box-sizing: initial !important;
+  box-sizing: initial !important;
+}
+
+.ym-img-holder{
+  z-index: 999999;
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  display: table;
+}
+
+.ym-img-holder .fixer{
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.ym-img-holder .img-popup{
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  position: fixed;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  overflow: scroll;
+}
+
+.ym-img-holder .ym-close{
+    position: fixed;
+    font-size: 32px;
+    height: 32px;
+    width: 18px;
+    top: 15px;
+    right: 15px;
+    padding: 4px 12px;
+    background: #000;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    line-height: 30px;
+    opacity: .8;
+    color: #fff;
+    cursor: pointer;
+    z-index: 9999;
+    font-family: "botplatform-font", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: grid;
+    align-items: center;
+}
+
+.ym-img-holder .ym-zoom-in{
+  left: 48vw;
+}
+.ym-img-holder .ym-zoom-out{
+  left: 52vw;
+  line-height: 28px;
+}
+.ym-img-holder .ym-zoom{
+  position: fixed;
+  font-size: 25px;
+  bottom: 25px;
+  height: 30px;
+  width: 30px;
+  background: #000;
+  border-radius: 55%;
+  border: 2px solid #fff;
+  opacity: .8;
+  color: #fff;
+  cursor: pointer;
+  z-index: 9999;
+  font-family: "botplatform-font", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: grid;
+  align-items: center;
+}
+
+.ym-img-holder .img-popup.show{
+  z-index: 200;
+  transform: scale(1);
+  transition: all .3s ease-in-out;
+}
+
+.ym-img-holder .img-popup.show .holder{
+  display: inline-block;
+  position: relative;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  top: 50vh;
+}
+
+.ym-img-holder .img-popup .holder img{
+  height: 75vh;
+  border-radius: 10px;
+  min-width: 20vh;
+  min-height: 30vh;
+  overflow: hidden;
+  transition-property: all .5s cubic-bezier(0.4, 0, 1, 1); 
+}
+
+.fileviewer-div-overlay {
+  background: #4a4a4a99;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  z-index: 1000000;
+  position: absolute;
+}
+
+.fileviewer-div {
+  position: fixed;
+  right: 380px;
+  padding-right: 10px;
+  width: 700px;
+  bottom: 95px;
+  height: calc(100vh - 120px);
+  max-height: 600px;
+  box-shadow: rgb(0 0 0 / 16%) -4px 0px 7px 0px;
+  border-radius: 10px 0 0 10px;
+  z-index: 99998;
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+.fileviewer-div-pwa {
+  position: fixed;
+  width: 50%;
+  height: 70%;
+  box-shadow: rgb(0 0 0 / 16%) -4px 0px 7px 0px;
+  border-radius: 10px;
+  z-index: 100000;
+  display: flex;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  flex-direction: column;
+  margin: auto;
+  background: white;
+}
+
+.fileviewer-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  border-bottom: solid 1px #d4d4d4;
+}
+
+.fileviewer-content {
+  height: 300px;
+  overflow: hidden;
+  flex : 1;
+}
+
+.fileviewer-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top:5px;
+  padding: 10px;
+  border-radius: 0 0 0 10px;
+  background: #EAF5FB;
+}
+
+.fileviewer-title {
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.fileviewer-body i{
+  color: #0380ff;
+  background: white;
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  margin: 4px;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #dedede;
+  border-radius: 50%;
+  box-shadow: 0 1px 6px 0px #2323239c;
+}
+
+.fileviewer-close{
+  color: #d45454;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fileviewer-docname{
+  font-size: 14px;
+  overflow-wrap: anywhere;
+  font-weight: bold;
+}
+
+.fileviewer-feedback{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90px;
+}
+
+.fileviewer-feedback .thumbs{
+  height: 26px;
+  width: 30px;
+  cursor: pointer;
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.closefileviewer{
+  height:16px;
+  width:16px;
+  display: flex;
+  background-size: cover;
+}
+
+@media screen and (max-device-width: 768px) {
+  .fileviewer-div {
+    position: fixed;
+    width: 100%;
+    right:0;
+    top: 0;
+    padding-right: 0px;
+    height: 100%;
+    min-height: 100%;
+    box-shadow: rgb(0 0 0 / 16%) -4px 0px 7px 0px;
+    border-radius: 4px;
+    z-index: 100000;
+    display: flex;
+    flex-direction: column;
+    background: white;
+  }
+  .fileviewer-footer {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+#ymFrameHolder.compact {
+  bottom:0 !important;
+}
+
+#ymIrameId.compact {
+  border: none !important;
+  width: 100% !important;
+  min-height: 500px !important;
+}
+
+.ym-loading-spinner {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 45%;
+  top: 45%;
+}
+
+.ym-double-bounce1, .ym-double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #333;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.ym-double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% {
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+    }
+}
+</style><style type="text/css">@charset "UTF-8";
+
+/*!
+ * animate.css -https://daneden.github.io/animate.css/
+ * Version - 3.7.2
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2019 Daniel Eden
+ */
+
+@-webkit-keyframes ym_bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+@keyframes ym_bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+.ym_bounce {
+  -webkit-animation-name: ym_bounce;
+  animation-name: ym_bounce;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+
+@-webkit-keyframes ym_flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes ym_flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.ym_flash {
+  -webkit-animation-name: ym_flash;
+  animation-name: ym_flash;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes ym_pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes ym_pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.ym_pulse {
+  -webkit-animation-name: ym_pulse;
+  animation-name: ym_pulse;
+}
+
+@-webkit-keyframes ym_rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes ym_rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.ym_rubberBand {
+  -webkit-animation-name: ym_rubberBand;
+  animation-name: ym_rubberBand;
+}
+
+@-webkit-keyframes shake {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@keyframes shake {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}
+
+@-webkit-keyframes ym_headShake {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  6.5% {
+    -webkit-transform: translateX(-6px) rotateY(-9deg);
+    transform: translateX(-6px) rotateY(-9deg);
+  }
+
+  18.5% {
+    -webkit-transform: translateX(5px) rotateY(7deg);
+    transform: translateX(5px) rotateY(7deg);
+  }
+
+  31.5% {
+    -webkit-transform: translateX(-3px) rotateY(-5deg);
+    transform: translateX(-3px) rotateY(-5deg);
+  }
+
+  43.5% {
+    -webkit-transform: translateX(2px) rotateY(3deg);
+    transform: translateX(2px) rotateY(3deg);
+  }
+
+  50% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes ym_headShake {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  6.5% {
+    -webkit-transform: translateX(-6px) rotateY(-9deg);
+    transform: translateX(-6px) rotateY(-9deg);
+  }
+
+  18.5% {
+    -webkit-transform: translateX(5px) rotateY(7deg);
+    transform: translateX(5px) rotateY(7deg);
+  }
+
+  31.5% {
+    -webkit-transform: translateX(-3px) rotateY(-5deg);
+    transform: translateX(-3px) rotateY(-5deg);
+  }
+
+  43.5% {
+    -webkit-transform: translateX(2px) rotateY(3deg);
+    transform: translateX(2px) rotateY(3deg);
+  }
+
+  50% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.ym_headShake {
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-name: ym_headShake;
+  animation-name: ym_headShake;
+}
+
+@-webkit-keyframes ym_swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+@keyframes ym_swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+.ym_swing {
+  -webkit-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: ym_swing;
+  animation-name: ym_swing;
+}
+
+@-webkit-keyframes ym_tada {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%,
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes ym_tada {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%,
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.ym_tada {
+  -webkit-animation-name: ym_tada;
+  animation-name: ym_tada;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes ym_wobble {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_wobble {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_wobble {
+  -webkit-animation-name: ym_wobble;
+  animation-name: ym_wobble;
+}
+
+@-webkit-keyframes jello {
+  from,
+  11.1%,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  22.2% {
+    -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  }
+
+  33.3% {
+    -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+    transform: skewX(6.25deg) skewY(6.25deg);
+  }
+
+  44.4% {
+    -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+    transform: skewX(-3.125deg) skewY(-3.125deg);
+  }
+
+  55.5% {
+    -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+    transform: skewX(1.5625deg) skewY(1.5625deg);
+  }
+
+  66.6% {
+    -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    transform: skewX(-0.78125deg) skewY(-0.78125deg);
+  }
+
+  77.7% {
+    -webkit-transform: skewX(0.390625deg) skewY(0.390625deg);
+    transform: skewX(0.390625deg) skewY(0.390625deg);
+  }
+
+  88.8% {
+    -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  }
+}
+
+@keyframes jello {
+  from,
+  11.1%,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  22.2% {
+    -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  }
+
+  33.3% {
+    -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+    transform: skewX(6.25deg) skewY(6.25deg);
+  }
+
+  44.4% {
+    -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+    transform: skewX(-3.125deg) skewY(-3.125deg);
+  }
+
+  55.5% {
+    -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+    transform: skewX(1.5625deg) skewY(1.5625deg);
+  }
+
+  66.6% {
+    -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    transform: skewX(-0.78125deg) skewY(-0.78125deg);
+  }
+
+  77.7% {
+    -webkit-transform: skewX(0.390625deg) skewY(0.390625deg);
+    transform: skewX(0.390625deg) skewY(0.390625deg);
+  }
+
+  88.8% {
+    -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  }
+}
+
+.jello {
+  -webkit-animation-name: jello;
+  animation-name: jello;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+}
+
+@-webkit-keyframes ym_heartBeat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  14% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  28% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  42% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes ym_heartBeat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  14% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  28% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  42% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.ym_heartBeat {
+  -webkit-animation-name: ym_heartBeat;
+  animation-name: ym_heartBeat;
+  -webkit-animation-duration: 1.3s;
+  animation-duration: 1.3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes ym_bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes ym_bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.ym_bounceIn {
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-name: ym_bounceIn;
+  animation-name: ym_bounceIn;
+}
+
+@-webkit-keyframes ym_bounceInDown {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_bounceInDown {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_bounceInDown {
+  -webkit-animation-name: ym_bounceInDown;
+  animation-name: ym_bounceInDown;
+}
+
+@-webkit-keyframes ym_bounceInLeft {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_bounceInLeft {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_bounceInLeft {
+  -webkit-animation-name: ym_bounceInLeft;
+  animation-name: ym_bounceInLeft;
+}
+
+@-webkit-keyframes ym_bounceInRight {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(3000px, 0, 0);
+    transform: translate3d(3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-25px, 0, 0);
+    transform: translate3d(-25px, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_bounceInRight {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(3000px, 0, 0);
+    transform: translate3d(3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-25px, 0, 0);
+    transform: translate3d(-25px, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_bounceInRight {
+  -webkit-animation-name: ym_bounceInRight;
+  animation-name: ym_bounceInRight;
+}
+
+@-webkit-keyframes ym_bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_bounceInUp {
+  -webkit-animation-name: ym_bounceInUp;
+  animation-name: ym_bounceInUp;
+}
+
+@-webkit-keyframes ym_bounceOut {
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  50%,
+  55% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+}
+
+@keyframes ym_bounceOut {
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  50%,
+  55% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+}
+
+.ym_bounceOut {
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-name: ym_bounceOut;
+  animation-name: ym_bounceOut;
+}
+
+@-webkit-keyframes ym_bounceOutDown {
+  20% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+
+  40%,
+  45% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0);
+  }
+}
+
+@keyframes ym_bounceOutDown {
+  20% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+
+  40%,
+  45% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0);
+  }
+}
+
+.ym_bounceOutDown {
+  -webkit-animation-name: ym_bounceOutDown;
+  animation-name: ym_bounceOutDown;
+}
+
+@-webkit-keyframes ym_bounceOutLeft {
+  20% {
+    opacity: 1;
+    -webkit-transform: translate3d(20px, 0, 0);
+    transform: translate3d(20px, 0, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+}
+
+@keyframes ym_bounceOutLeft {
+  20% {
+    opacity: 1;
+    -webkit-transform: translate3d(20px, 0, 0);
+    transform: translate3d(20px, 0, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+}
+
+.ym_bounceOutLeft {
+  -webkit-animation-name: ym_bounceOutLeft;
+  animation-name: ym_bounceOutLeft;
+}
+
+@-webkit-keyframes ym_bounceOutRight {
+  20% {
+    opacity: 1;
+    -webkit-transform: translate3d(-20px, 0, 0);
+    transform: translate3d(-20px, 0, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+}
+
+@keyframes ym_bounceOutRight {
+  20% {
+    opacity: 1;
+    -webkit-transform: translate3d(-20px, 0, 0);
+    transform: translate3d(-20px, 0, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+}
+
+.ym_bounceOutRight {
+  -webkit-animation-name: ym_bounceOutRight;
+  animation-name: ym_bounceOutRight;
+}
+
+@-webkit-keyframes ym_bounceOutUp {
+  20% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+  }
+
+  40%,
+  45% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+}
+
+@keyframes ym_bounceOutUp {
+  20% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+  }
+
+  40%,
+  45% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+}
+
+.ym_bounceOutUp {
+  -webkit-animation-name: ym_bounceOutUp;
+  animation-name: ym_bounceOutUp;
+}
+
+@-webkit-keyframes ym_fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes ym_fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.ym_fadeIn {
+  -webkit-animation-name: ym_fadeIn;
+  animation-name: ym_fadeIn;
+}
+
+@-webkit-keyframes ym_fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_fadeInDown {
+  -webkit-animation-name: ym_fadeInDown;
+  animation-name: ym_fadeInDown;
+}
+
+@-webkit-keyframes ym_fadeInDownBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_fadeInDownBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_fadeInDownBig {
+  -webkit-animation-name: ym_fadeInDownBig;
+  animation-name: ym_fadeInDownBig;
+}
+
+@-webkit-keyframes ym_fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_fadeInLeft {
+  -webkit-animation-name: ym_fadeInLeft;
+  animation-name: ym_fadeInLeft;
+}
+
+@-webkit-keyframes ym_fadeInLeftBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_fadeInLeftBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_fadeInLeftBig {
+  -webkit-animation-name: ym_fadeInLeftBig;
+  animation-name: ym_fadeInLeftBig;
+}
+
+@-webkit-keyframes ym_fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_fadeInRight {
+  -webkit-animation-name: ym_fadeInRight;
+  animation-name: ym_fadeInRight;
+}
+
+@-webkit-keyframes ym_fadeInRightBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_fadeInRightBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_fadeInRightBig {
+  -webkit-animation-name: ym_fadeInRightBig;
+  animation-name: ym_fadeInRightBig;
+}
+
+@-webkit-keyframes ym_fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_fadeInUp {
+  -webkit-animation-name: ym_fadeInUp;
+  animation-name: ym_fadeInUp;
+}
+
+@-webkit-keyframes ym_fadeInUpBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_fadeInUpBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_fadeInUpBig {
+  -webkit-animation-name: ym_fadeInUpBig;
+  animation-name: ym_fadeInUpBig;
+}
+
+@-webkit-keyframes ym_fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes ym_fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.ym_fadeOut {
+  -webkit-animation-name: ym_fadeOut;
+  animation-name: ym_fadeOut;
+}
+
+@-webkit-keyframes ym_fadeOutDown {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes ym_fadeOutDown {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+.ym_fadeOutDown {
+  -webkit-animation-name: ym_fadeOutDown;
+  animation-name: ym_fadeOutDown;
+}
+
+@-webkit-keyframes ym_fadeOutDownBig {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0);
+  }
+}
+
+@keyframes ym_fadeOutDownBig {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0);
+  }
+}
+
+.ym_fadeOutDownBig {
+  -webkit-animation-name: ym_fadeOutDownBig;
+  animation-name: ym_fadeOutDownBig;
+}
+
+@-webkit-keyframes ym_fadeOutLeft {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes ym_fadeOutLeft {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.ym_fadeOutLeft {
+  -webkit-animation-name: ym_fadeOutLeft;
+  animation-name: ym_fadeOutLeft;
+}
+
+@-webkit-keyframes ym_fadeOutLeftBig {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+}
+
+@keyframes ym_fadeOutLeftBig {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+}
+
+.ym_fadeOutLeftBig {
+  -webkit-animation-name: ym_fadeOutLeftBig;
+  animation-name: ym_fadeOutLeftBig;
+}
+
+@-webkit-keyframes ym_fadeOutRight {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes ym_fadeOutRight {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+.ym_fadeOutRight {
+  -webkit-animation-name: ym_fadeOutRight;
+  animation-name: ym_fadeOutRight;
+}
+
+@-webkit-keyframes ym_fadeOutRightBig {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+}
+
+@keyframes ym_fadeOutRightBig {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+}
+
+.ym_fadeOutRightBig {
+  -webkit-animation-name: ym_fadeOutRightBig;
+  animation-name: ym_fadeOutRightBig;
+}
+
+@-webkit-keyframes ym_fadeOutUp {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes ym_fadeOutUp {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.ym_fadeOutUp {
+  -webkit-animation-name: ym_fadeOutUp;
+  animation-name: ym_fadeOutUp;
+}
+
+@-webkit-keyframes ym_fadeOutUpBig {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+}
+
+@keyframes ym_fadeOutUpBig {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+}
+
+.ym_fadeOutUpBig {
+  -webkit-animation-name: ym_fadeOutUpBig;
+  animation-name: ym_fadeOutUpBig;
+}
+
+@-webkit-keyframes ym_flip {
+  from {
+    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, -360deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+      rotate3d(0, 1, 0, -190deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+      rotate3d(0, 1, 0, -190deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  50% {
+    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+      rotate3d(0, 1, 0, -170deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+      rotate3d(0, 1, 0, -170deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, 0deg);
+    transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, 0deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  to {
+    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, 0deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes ym_flip {
+  from {
+    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, -360deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+      rotate3d(0, 1, 0, -190deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+      rotate3d(0, 1, 0, -190deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  50% {
+    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+      rotate3d(0, 1, 0, -170deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+      rotate3d(0, 1, 0, -170deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, 0deg);
+    transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, 0deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  to {
+    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, 0deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+}
+
+.ym_animated.ym_flip {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-animation-name: ym_flip;
+  animation-name: ym_flip;
+}
+
+@-webkit-keyframes ym_flipInX {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+
+@keyframes ym_flipInX {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+
+.ym_flipInX {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: ym_flipInX;
+  animation-name: ym_flipInX;
+}
+
+@-webkit-keyframes ym_flipInY {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+
+@keyframes ym_flipInY {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+
+.ym_flipInY {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: ym_flipInY;
+  animation-name: ym_flipInY;
+}
+
+@-webkit-keyframes ym_flipOutX {
+  from {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+
+  30% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    opacity: 0;
+  }
+}
+
+@keyframes ym_flipOutX {
+  from {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+
+  30% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    opacity: 0;
+  }
+}
+
+.ym_flipOutX {
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-name: ym_flipOutX;
+  animation-name: ym_flipOutX;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+}
+
+@-webkit-keyframes ym_flipOutY {
+  from {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+
+  30% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -15deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -15deg);
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    opacity: 0;
+  }
+}
+
+@keyframes ym_flipOutY {
+  from {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+
+  30% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -15deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -15deg);
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    opacity: 0;
+  }
+}
+
+.ym_flipOutY {
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: ym_flipOutY;
+  animation-name: ym_flipOutY;
+}
+
+@-webkit-keyframes ym_lightSpeedIn {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+    transform: translate3d(100%, 0, 0) skewX(-30deg);
+    opacity: 0;
+  }
+
+  60% {
+    -webkit-transform: skewX(20deg);
+    transform: skewX(20deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: skewX(-5deg);
+    transform: skewX(-5deg);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_lightSpeedIn {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+    transform: translate3d(100%, 0, 0) skewX(-30deg);
+    opacity: 0;
+  }
+
+  60% {
+    -webkit-transform: skewX(20deg);
+    transform: skewX(20deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: skewX(-5deg);
+    transform: skewX(-5deg);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_lightSpeedIn {
+  -webkit-animation-name: ym_lightSpeedIn;
+  animation-name: ym_lightSpeedIn;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes ym_lightSpeedOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: translate3d(100%, 0, 0) skewX(30deg);
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    opacity: 0;
+  }
+}
+
+@keyframes ym_lightSpeedOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: translate3d(100%, 0, 0) skewX(30deg);
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    opacity: 0;
+  }
+}
+
+.ym_lightSpeedOut {
+  -webkit-animation-name: ym_lightSpeedOut;
+  animation-name: ym_lightSpeedOut;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+}
+
+@-webkit-keyframes ym_rotateIn {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes ym_rotateIn {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.ym_rotateIn {
+  -webkit-animation-name: ym_rotateIn;
+  animation-name: ym_rotateIn;
+}
+
+@-webkit-keyframes ym_rotateInDownLeft {
+  from {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes ym_rotateInDownLeft {
+  from {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.ym_rotateInDownLeft {
+  -webkit-animation-name: ym_rotateInDownLeft;
+  animation-name: ym_rotateInDownLeft;
+}
+
+@-webkit-keyframes ym_rotateInDownRight {
+  from {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes ym_rotateInDownRight {
+  from {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.ym_rotateInDownRight {
+  -webkit-animation-name: ym_rotateInDownRight;
+  animation-name: ym_rotateInDownRight;
+}
+
+@-webkit-keyframes ym_rotateInUpLeft {
+  from {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes ym_rotateInUpLeft {
+  from {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.ym_rotateInUpLeft {
+  -webkit-animation-name: ym_rotateInUpLeft;
+  animation-name: ym_rotateInUpLeft;
+}
+
+@-webkit-keyframes ym_rotateInUpRight {
+  from {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -90deg);
+    transform: rotate3d(0, 0, 1, -90deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes ym_rotateInUpRight {
+  from {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -90deg);
+    transform: rotate3d(0, 0, 1, -90deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.ym_rotateInUpRight {
+  -webkit-animation-name: ym_rotateInUpRight;
+  animation-name: ym_rotateInUpRight;
+}
+
+@-webkit-keyframes ym_rotateOut {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, 200deg);
+    transform: rotate3d(0, 0, 1, 200deg);
+    opacity: 0;
+  }
+}
+
+@keyframes ym_rotateOut {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, 200deg);
+    transform: rotate3d(0, 0, 1, 200deg);
+    opacity: 0;
+  }
+}
+
+.ym_rotateOut {
+  -webkit-animation-name: ym_rotateOut;
+  animation-name: ym_rotateOut;
+}
+
+@-webkit-keyframes ym_rotateOutDownLeft {
+  from {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  }
+}
+
+@keyframes ym_rotateOutDownLeft {
+  from {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  }
+}
+
+.ym_rotateOutDownLeft {
+  -webkit-animation-name: ym_rotateOutDownLeft;
+  animation-name: ym_rotateOutDownLeft;
+}
+
+@-webkit-keyframes ym_rotateOutDownRight {
+  from {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0;
+  }
+}
+
+@keyframes ym_rotateOutDownRight {
+  from {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0;
+  }
+}
+
+.ym_rotateOutDownRight {
+  -webkit-animation-name: ym_rotateOutDownRight;
+  animation-name: ym_rotateOutDownRight;
+}
+
+@-webkit-keyframes ym_rotateOutUpLeft {
+  from {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0;
+  }
+}
+
+@keyframes ym_rotateOutUpLeft {
+  from {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0;
+  }
+}
+
+.ym_rotateOutUpLeft {
+  -webkit-animation-name: ym_rotateOutUpLeft;
+  animation-name: ym_rotateOutUpLeft;
+}
+
+@-webkit-keyframes ym_rotateOutUpRight {
+  from {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 90deg);
+    transform: rotate3d(0, 0, 1, 90deg);
+    opacity: 0;
+  }
+}
+
+@keyframes ym_rotateOutUpRight {
+  from {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 90deg);
+    transform: rotate3d(0, 0, 1, 90deg);
+    opacity: 0;
+  }
+}
+
+.ym_rotateOutUpRight {
+  -webkit-animation-name: ym_rotateOutUpRight;
+  animation-name: ym_rotateOutUpRight;
+}
+
+@-webkit-keyframes ym_hinge {
+  0% {
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+
+  20%,
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 80deg);
+    transform: rotate3d(0, 0, 1, 80deg);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+
+  40%,
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, 60deg);
+    transform: rotate3d(0, 0, 1, 60deg);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 700px, 0);
+    transform: translate3d(0, 700px, 0);
+    opacity: 0;
+  }
+}
+
+@keyframes ym_hinge {
+  0% {
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+
+  20%,
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 80deg);
+    transform: rotate3d(0, 0, 1, 80deg);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+
+  40%,
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, 60deg);
+    transform: rotate3d(0, 0, 1, 60deg);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 700px, 0);
+    transform: translate3d(0, 700px, 0);
+    opacity: 0;
+  }
+}
+
+.ym_hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: ym_hinge;
+  animation-name: ym_hinge;
+}
+
+@-webkit-keyframes ym_jackInTheBox {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  50% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes ym_jackInTheBox {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  50% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.ym_jackInTheBox {
+  -webkit-animation-name: ym_jackInTheBox;
+  animation-name: ym_jackInTheBox;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes ym_rollIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_rollIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_rollIn {
+  -webkit-animation-name: ym_rollIn;
+  animation-name: ym_rollIn;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes ym_rollOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+  }
+}
+
+@keyframes ym_rollOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+  }
+}
+
+.ym_rollOut {
+  -webkit-animation-name: ym_rollOut;
+  animation-name: ym_rollOut;
+}
+
+@-webkit-keyframes ym_zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes ym_zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.ym_zoomIn {
+  -webkit-animation-name: ym_zoomIn;
+  animation-name: ym_zoomIn;
+}
+
+@-webkit-keyframes ym_zoomInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+@keyframes ym_zoomInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+.ym_zoomInDown {
+  -webkit-animation-name: ym_zoomInDown;
+  animation-name: ym_zoomInDown;
+}
+
+@-webkit-keyframes ym_zoomInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+@keyframes ym_zoomInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+.ym_zoomInLeft {
+  -webkit-animation-name: ym_zoomInLeft;
+  animation-name: ym_zoomInLeft;
+}
+
+@-webkit-keyframes ym_zoomInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(-10px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(-10px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+@keyframes ym_zoomInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(-10px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(-10px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+.ym_zoomInRight {
+  -webkit-animation-name: ym_zoomInRight;
+  animation-name: ym_zoomInRight;
+}
+
+@-webkit-keyframes ym_zoomInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+@keyframes ym_zoomInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+.ym_zoomInUp {
+  -webkit-animation-name: ym_zoomInUp;
+  animation-name: ym_zoomInUp;
+}
+
+@-webkit-keyframes ym_zoomOut {
+  from {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes ym_zoomOut {
+  from {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.ym_zoomOut {
+  -webkit-animation-name: ym_zoomOut;
+  animation-name: ym_zoomOut;
+}
+
+@-webkit-keyframes ym_zoomOutDown {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 2000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 2000px, 0);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+@keyframes ym_zoomOutDown {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 2000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 2000px, 0);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+.ym_zoomOutDown {
+  -webkit-animation-name: ym_zoomOutDown;
+  animation-name: ym_zoomOutDown;
+}
+
+@-webkit-keyframes ym_zoomOutLeft {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale(0.1) translate3d(-2000px, 0, 0);
+    transform: scale(0.1) translate3d(-2000px, 0, 0);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+  }
+}
+
+@keyframes ym_zoomOutLeft {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale(0.1) translate3d(-2000px, 0, 0);
+    transform: scale(0.1) translate3d(-2000px, 0, 0);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+  }
+}
+
+.ym_zoomOutLeft {
+  -webkit-animation-name: ym_zoomOutLeft;
+  animation-name: ym_zoomOutLeft;
+}
+
+@-webkit-keyframes ym_zoomOutRight {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale(0.1) translate3d(2000px, 0, 0);
+    transform: scale(0.1) translate3d(2000px, 0, 0);
+    -webkit-transform-origin: right center;
+    transform-origin: right center;
+  }
+}
+
+@keyframes ym_zoomOutRight {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale(0.1) translate3d(2000px, 0, 0);
+    transform: scale(0.1) translate3d(2000px, 0, 0);
+    -webkit-transform-origin: right center;
+    transform-origin: right center;
+  }
+}
+
+.ym_zoomOutRight {
+  -webkit-animation-name: ym_zoomOutRight;
+  animation-name: ym_zoomOutRight;
+}
+
+@-webkit-keyframes ym_zoomOutUp {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+@keyframes ym_zoomOutUp {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+.ym_zoomOutUp {
+  -webkit-animation-name: ym_zoomOutUp;
+  animation-name: ym_zoomOutUp;
+}
+
+@-webkit-keyframes ym_slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_slideInDown {
+  -webkit-animation-name: ym_slideInDown;
+  animation-name: ym_slideInDown;
+}
+
+@-webkit-keyframes ym_slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_slideInLeft {
+  -webkit-animation-name: ym_slideInLeft;
+  animation-name: ym_slideInLeft;
+}
+
+@-webkit-keyframes ym_slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_slideInRight {
+  -webkit-animation-name: ym_slideInRight;
+  animation-name: ym_slideInRight;
+}
+
+@-webkit-keyframes ym_slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ym_slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ym_slideInUp {
+  -webkit-animation-name: ym_slideInUp;
+  animation-name: ym_slideInUp;
+}
+
+@-webkit-keyframes ym_slideOutDown {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes ym_slideOutDown {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+.ym_slideOutDown {
+  -webkit-animation-name: ym_slideOutDown;
+  animation-name: ym_slideOutDown;
+}
+
+@-webkit-keyframes ym_slideOutLeft {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes ym_slideOutLeft {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.ym_slideOutLeft {
+  -webkit-animation-name: ym_slideOutLeft;
+  animation-name: ym_slideOutLeft;
+}
+
+@-webkit-keyframes ym_slideOutRight {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes ym_slideOutRight {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+.ym_slideOutRight {
+  -webkit-animation-name: ym_slideOutRight;
+  animation-name: ym_slideOutRight;
+}
+
+@-webkit-keyframes ym_slideOutUp {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes ym_slideOutUp {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.ym_slideOutUp {
+  -webkit-animation-name: ym_slideOutUp;
+  animation-name: ym_slideOutUp;
+}
+
+.ym_animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.ym_animated.ym_infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.ym_animated.ym_five {
+  -webkit-animation-iteration-count: 5;
+  animation-iteration-count: 5;
+}
+
+.ym_animated.ym_four {
+  -webkit-animation-iteration-count: 4;
+  animation-iteration-count: 4;
+}
+
+.ym_animated.ym_three {
+  -webkit-animation-iteration-count: 3;
+  animation-iteration-count: 3;
+}
+
+.ym_animated.ym_two {
+  -webkit-animation-iteration-count: 2;
+  animation-iteration-count: 2;
+}
+
+.ym_animated.ym_delay-1s {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.ym_animated.ym_delay-2s {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.ym_animated.ym_delay-3s {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+.ym_animated.ym_delay-4s {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.ym_animated.ym_delay-5s {
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.ym_animated.ym_fast {
+  -webkit-animation-duration: 800ms;
+  animation-duration: 800ms;
+}
+
+.ym_animated.ym_faster {
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+}
+
+.ym_animated.ym_slow {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.ym_animated.ym_slower {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+}
+
+@media (print), (prefers-reduced-motion: reduce) {
+  .ym_animated {
+    -webkit-animation-duration: 1ms !important;
+    animation-duration: 1ms !important;
+    -webkit-transition-duration: 1ms !important;
+    transition-duration: 1ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+</style></head>
+<body style="--closeImage:url(https\:\/\/cdn\.yellowmessenger\.com\/files\/images\/close\.png);">
+
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RH6GBNFRTP"></script>
+<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-RH6GBNFRTP');
+		</script>
+
+
+<script>
+			!function(f,b,e,v,n,t,s) {
+				if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+				n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+				if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+				n.queue=[];t=b.createElement(e);t.async=!0;
+				t.src=v;s=b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t,s)
+			}(window,document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '1931190103774698'); 
+			fbq('track', 'PageView');
+		</script>
+<noscript>
+		<img height="1" width="1" 
+		src="https://www.facebook.com/tr?id=1931190103774698&ev=PageView
+		&noscript=1"/>
+		</noscript>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js" crossorigin="$ta$hcypher"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/aes.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/pbkdf2.js"></script>
+
+
+<section>
+<div class="custom-header fixed-top">
+<header class="container">
+<nav class="navbar navbar-expand-lg navbar-light px-0 sec_mainHeader">
+<a class="navbar-brand" href="https://www.stashfin.com/"><img loading="lazy" src="https://static.stashfin.com/website/assets/images/stashfin_logo.png" title="STASHFIN" alt="STASHFIN" class="img-fluid"></a>
+<a class="nav-link navbar-toggler loginLogoutLink" href="https://www.stashfin.com/login">Log In</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="STASHFIN"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+<ul class="navbar-nav ml-auto mr-auto mt-2 mt-lg-0 cust-left-mr">
+<li class="nav-item"><a class="nav-link" href="https://www.stashfin.com/request-my-card">Credit Line Card</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.stashfin.com/cards/womencard">Women card</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.stashfin.com/stash-fin-app">StashFin App</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.stashfin.com/loan-calculator">EMI Calculator</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.stashfin.com/login">Make Payment</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.stashfin.com/deal-and-offer">Offers</a></li>
+<li class="nav-item"><a class="nav-link" href="https://www.stashfin.com/contact-us">Customer Service</a></li>
+</ul>
+<ul class="navbar-nav mt-2 mt-lg-0 nav-top-rgt cust-left-mr">
+<li class="nav-item top-login-link"><a class="nav-link login-link pr-0" href="https://www.stashfin.com/login">Log In</a></li>
+</ul>
+</div>
+</nav>
+</header>
+</div>
+</section>
+
+
+<script>
+var finshell = false;
+</script>
+<style>
+    .home_carosull{
+        float: none;
+    padding: 0 10px;
+    border-right: 1px solid grey;
+        display:inline;
+    }
+    @media (max-width: 767px) {
+        .home_carosull{
+            float: left;
+    padding: 5px 15px;
+    border: none;
+         
+         }
+    }
+</style>
+<div class="custom-body middle-section over-h">
+<section class="container">
+<div class="row mb-0 home-frm-wrap">
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-7 text-center home-frm-lft" style="padding: 20px 0;">
+<div class="mt-5 mb-0">
+<p class="mb-0 custom-font-size custom-home-page-head ">
+<span class="font-weight-custom font_1rem" id="middle_section_heading">The All-In-One Card</span>
+</p>
+</div>
+<div class="column hpTopCard">
+<figure class="fixedratio"></figure>
+<h1 class="font-size-1-3 font-weight-custom font_1rem" id="middle_section_heading">StashFin Credit Line Card</h1>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<div id="blogCarousel2" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators" id="middle_section_indicator">
+<li data-target="#blogCarousel2" data-slide-to="0" class=""></li>
+<li data-target="#blogCarousel2" data-slide-to="1" class="active"></li>
+</ol>
+
+<div class="carousel-inner" id="middle_section_slide_container">
+<div class="carousel-item text-center">
+<div class="font-size-1-3 cutom-home-left mt-0">
+<p><span style="color:#000;font-weight:600">SMARTER</span> than a credit card, <span style="color:#000;font-weight:600">SIMPLER</span> than a personal loan</p>
+<p style="font-size: 1rem;margin-top:10px">Pay interest only on the funds you load on your card</p><br>
+</div>
+</div>
+<div class="carousel-item text-center active">
+<div class="listWrappers" style="margin: 5px 25px;">
+<ul style="list-style-type: none;margin: 0;padding: 0 30px;overflow: hidden;">
+<li id="credit_card_list">Credit Line Upto ₹5 Lakh</li>
+<li id="credit_card_list">Minimum Documentation</li>
+<li id="credit_card_list" style="border: none;">Instant Approval</li>
+</ul>
+</div>
+<div class="listWrappers">
+<ul style="list-style-type: none;margin: 0;padding: 0 25px; margin-bottom:5px; overflow: hidden; ">
+<li class="home_carosull">1% cashback on every spend</li>
+<li class="home_carosull" style="border: none; ">Welcome stashcash worth ₹1500</li>
+</ul>
+<p style="font-size: 1rem;">Benefits worth ₹3450+ in the first year </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 home-frm-rgt">
+<div class="custom-form-box custom-box-shadow mg-50-auto">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mb-3">
+<form class="form-group mt-1" id="frm_register" autocomplete="nope">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="font-bold-30px font-weight-normal-bold">Apply for a Credit Line Card</p>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 my-1">
+<input type="text" class="form-control mb-2 user-name alphabet" pLACeholder="Name (As per ID Proof)" name="name" autocomplete="off" id="applicantName">
+<p class="error-class mb-1"></p>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 my-1">
+<input id="mobile-number" type="text" class="form-control mb-2 mobile-number phone" pLACeholder="Mobile Number" name="phone" autocomplete="off">
+<p class="error-class mb-1"></p>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 my-1">
+<input type="text" class="form-control mb-2 monthly-salary number" pLACeholder="Net Monthly Income" name="salary" autocomplete="off">
+<p class="error-class mb-1"></p>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 my-1">
+<input id="city" type="text" class="form-control mb-2 city alphabet" pLACeholder="City" name="city" autocomplete="off">
+<p class="error-class mb-1"></p>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 my-2 referral-code">
+<div class="form-check pl-0 py-2">
+<input class="form-check-input" type="checkbox" id="refCode" name="chk_refferal">
+<label class="form-check-label text-justify custm-font" for="refCode">Yes, I have a Referral Code</label>
+<p class="error-class mb-1"></p>
+</div>
+<div class="referral-code-textbox d-none">
+<input type="text" class="" pLACeholder="Enter Code" name="referral_code" value="" autocomplete="off">
+<p class="error-class mb-1"></p>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 my-2">
+<div class="form-check pl-0 mb-2">
+<input class="form-check-input" type="checkbox" id="whatsapp" name="whatsapp_chk" checked="">
+<label class="form-check-label text-justify custm-font" for="whatsapp">Receive offers and notifications on WhatsApp</label>
+<p class="error-class mb-1"></p>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mb-0">
+<div class="form-check pl-0 mb-2">
+<input class="form-check-input" type="checkbox" id="terms" name="tnc">
+<label class="form-check-label text-justify custm-font" for="terms">I have read and agreed to the
+<a href="https://www.stashfin.com/licence_agreement" target="_blank" class="text-blue font-weight-custom">End User License Agreement</a>,
+ <a href="https://www.stashfin.com/privacy_policy" target="_blank" class="text-blue font-weight-custom">Privacy Policy (EQX)</a>,
+<a href="https://www.stashfin.com/privacy_policy/akara" target="_blank" class="text-blue font-weight-custom">Privacy Policy (AKARA)</a>,
+<a href="https://www.stashfin.com/fpc" target="_blank" class="text-blue font-weight-custom">Fair Practice Code</a>,
+<a href="https://www.stashfin.com/stashfin_term_condition" target="_blank" class="text-blue font-weight-custom"> StashFin Platform General Terms and Conditions</a>,
+<a href="https://www.stashfin.com/platform_declaration" target="_blank" class="text-blue font-weight-custom"> Platform Declaration</a>,
+<a href="https://www.stashfin.com/user_consent_for_kyc" target="_blank" class="text-blue font-weight-custom"> User Consent For KYC</a>,
+<a href="https://www.stashfin.com/credit_line_general_terms_and_condition" target="_blank" class="text-blue font-weight-custom">Credit Line General Terms and Conditions</a> and
+<a href="https://www.stashfin.com/credit_line_general_terms_and_condition_colanding" target="_blank" class="text-blue font-weight-custom">Other Terms and Conditions</a>
+<a href="https://www.stashfin.com/bildesk_payment_tnc" target="_blank" class="text-blue font-weight-custom">Terms and Conditions for payment through Billdesk</a>
+
+on the StashFin App/Website
+</label>
+<p class="error-class mb-1"></p>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+<input autocomplete="off" type="hidden" class="form-control utm_source" name="utm_source" value="organic">
+<input autocomplete="off" type="hidden" class="form-control utm_medium" name="utm_medium" value="web">
+<input autocomplete="off" type="hidden" class="form-control utm_url" name="utm_url" value="https://www.stashfin.com//">
+<input autocomplete="off" type="hidden" class="form-control utm_content" name="utm_content" value="Personal Loan">
+<input autocomplete="off" type="hidden" class="form-control utm_term" name="utm_term" value="">
+<input autocomplete="off" type="hidden" class="form-control utm_campaign" name="utm_campaign" value="">
+<input autocomplete="off" type="hidden" class="form-control r_code" name="r_code" value="">
+<input autocomplete="off" type="hidden" class="form-control utm_campaign" name="pub_id" value="">
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<ul class="g-cap-btn">
+<li>
+<div class="g-recaptcha" id="captcha_container"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="./stashfin_files/anchor.html" width="304" height="78" role="presentation" name="a-he8y5ug5uha3" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./stashfin_files/saved_resource(1).html"></iframe></div>
+ <p class="error-class captcha-error"></p>
+</li>
+<li>
+<button type="submit" class="btn btn-primary mb-1">PROCEED <i class="ajaxloader fa fa-circle-o-notch fa-spin"></i></button>
+</li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="response"></p>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="color-section text-center">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="font-bold-30px" id="sec_heading">3 simple steps to solve all your money problems</p>
+<p>Follow our easy, step by step process to elevate your credit experience.</p>
+</div>
+</div>
+<div class="row mt-5 step-process-wrap">
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 vert-mb-1-5">
+<span class="img-box"><img loading="lazy" src="https://static.stashfin.com/website/assets/images/quick-easy.png" title="Quick &amp; easy online forms" alt="Quick &amp; easy online forms" class="img-fluid"></span>
+<p class="h5 mb-3"><span class="custom-badge">1</span>Fill Basic Details</p>
+<p class="color-sec-desc text-center">Fill up easy application forms &amp; share your online banking details to get your application processed within minutes</p>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 vert-mb-1-5">
+<span class="img-box"><img loading="lazy" src="https://static.stashfin.com/website/assets/images/submit-doc.png" title="Submit minimum documents" alt="Submit minimum documents" class="img-fluid"></span>
+<p class="h5 mb-3"><span class="custom-badge">2</span>Submit Documents for Verification</p>
+<p class="color-sec-desc text-center">Upload basic KYC documents on the website or app and get verified</p>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 vert-mb-1-5">
+<span class="img-box"><img loading="lazy" src="https://static.stashfin.com/website/assets/images/fund-sent-fas.png" title="Funds sent fast" alt="Funds sent fast" class="img-fluid"></span>
+<p class="h5 mb-3"><span class="custom-badge">3</span>Get Instant Funds</p>
+<p class="color-sec-desc text-center">Voila! You’re done. You will receive funds within 4 hours. It’s as easy as ordering a pizza</p>
+</div>
+</div>
+</div>
+</section>
+<section class="white-section">
+<div class="container">
+<div class="row text-center">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="font-bold-30px" id="sec_heading">Why choose StashFin?</p>
+<p>For us, you come first. We provide you with instant service at reasonable rates <br class="res-none"> while saving your valuable time and money</p>
+</div>
+</div>
+<div class="row mt-5 why-choose-sec-wrap">
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+<div class="row">
+ <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<div class="media">
+<img loading="lazy" class="mr-3" src="https://static.stashfin.com/website/assets/images/cashback.png" alt="Cashback">
+<div class="media-body text-justify">
+<h5 class="mt-0">Cashback </h5>
+<p>1% cashback on every online spend and POS transaction
+</p>
+</div>
+</div>
+<div class="media">
+<img loading="lazy" class="mr-3" src="https://static.stashfin.com/website/assets/images/quick-approval.png" alt="Quick Approvals">
+<div class="media-body text-justify">
+<h5 class="mt-0">Quick Approvals</h5>
+<p>Instant approvals on personal loan or credit line. Borrow any amount ranging from ₹1000  to ₹5,00,000</p>
+</div>
+</div>
+<div class="media">
+<img loading="lazy" class="mr-3" src="https://static.stashfin.com/website/assets/images/low-processing-fees.png" alt="Low processing fees">
+<div class="media-body text-justify">
+<h5 class="mt-0">Transparent Pricing</h5>
+No hidden fees. When you borrow through StashFin, you know exactly what your costs are
+</div>
+</div>
+<div class="media">
+<img loading="lazy" class="mr-3" src="https://static.stashfin.com/website/assets/images/complete-secure.png" alt="Complete secure process">
+<div class="media-body text-justify">
+<h5 class="mt-0">Completely Secure Process</h5>
+We use safe channels &amp; secure links to protect your sensitive information. At StashFin, trust &amp; security are taken very seriously
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<div class="media">
+<img loading="lazy" class="mr-3" src="https://static.stashfin.com/website/assets/images/stashcash.png" alt="Stashcash">
+<div class="media-body text-justify">
+<h5 class="mt-0">Stashcash </h5>
+<p>1500 welcome stashcash and benefits worth Rs. 3450+ in the first year
+</p>
+</div>
+</div>
+<div class="media">
+<img loading="lazy" class="mr-3" src="https://static.stashfin.com/website/assets/images/minimum-documentation.png" alt="Minimum documentation">
+<div class="media-body text-justify">
+<h5 class="mt-0">Minimum Documentation</h5>
+Minimum uploads on our quick online form. KYC in digital or physical form as per your convenience
+</div>
+</div>
+<div class="media">
+<img loading="lazy" class="mr-3" src="https://static.stashfin.com/website/assets/images/flexible-payment-terms.png" alt="Flexible payment terms">
+<div class="media-body text-justify">
+<h5 class="mt-0">Flexible Payment Terms</h5>
+Repay your loan with convenient EMIs. Pick a tenure that works for you ranging from 3 months to 36 months
+</div>
+</div>
+<div class="media">
+<img loading="lazy" class="mr-3" src="https://static.stashfin.com/website/assets/images/instant-disbursal.png" alt="Instant disbursal">
+<div class="media-body text-justify">
+<h5 class="mt-0">Instant Disbursal</h5>
+It takes as less as 4 hours from the time of application till you start using your funds. With StashFin Visa Credit Line Card, just 90 seconds
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="nocolor-section">
+<div class="container">
+<div class="row text-center">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p class="font-bold-30px mb-5" id="sec_heading">No Money? No Problem! <br class="res-none">Get access to instant funds anywhere, anytime, for any purpose!</p>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<div id="blogCarousel" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#blogCarousel" data-slide-to="0" class=""></li>
+<li data-target="#blogCarousel" data-slide-to="1" class="active"></li>
+</ol>
+
+<div class="carousel-inner">
+<div class="carousel-item text-center">
+<div class="row">
+<div class="col-md-6">
+<div class="white-section" style="min-height: 396.797px;">
+<div class="carousel-image-size">
+<a href="https://www.stashfin.com/#"><img loading="lazy" src="https://static.stashfin.com/website/assets/images/travel.png" alt="Travel" class="img-fluid"></a>
+</div>
+<div class="carousel-text">
+<h4 class="font-weight-custom m-2">Travel</h4>
+<p class="m-2 text-center text-justify">Got an unbelievable deal for that dream vacation? <br class="res-none"> Need funds to block the fare. Avail instant money<br class="res-none"> from StashFin &amp; spend worry-free!</p>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="white-section" style="min-height: 396.797px;">
+<div class="carousel-image-size">
+<a href="https://www.stashfin.com/#"><img loading="lazy" src="https://static.stashfin.com/website/assets/images/family.png" alt="Family" class="img-fluid"></a>
+</div>
+ <div class="carousel-text">
+<h4 class="font-weight-custom m-2">Family</h4>
+<p class="m-2 text-center text-justify">Unable to set aside money for unplanned expenses <br class="res-none"> in the family? Be carefree with an instant Credit Line<br class="res-none"> from StashFin. What’s more? With the credit line card,<br class="res-none"> get the flexibility to choose a loan amount &amp; tenure<br class="res-none"> at your fingertips</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="carousel-item text-center active">
+<div class="row">
+<div class="col-md-6">
+<div class="white-section" style="min-height: 396.797px;">
+<div class="carousel-image-size">
+<a href="https://www.stashfin.com/#"><img loading="lazy" src="https://static.stashfin.com/website/assets/images/education.png" alt="Education" class="img-fluid"></a>
+</div>
+<div class="carousel-text">
+<h4 class="font-weight-custom m-2">Education</h4>
+<p class="m-2 text-center text-justify">Need to pay for an online certification course to get that <br class="res-none">long awaited promotion? Need to pay upfront fee<br class="res-none"> for your kids to enroll in a coaching institute?<br class="res-none"> We have got you covered!</p>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="white-section" style="min-height: 396.797px;">
+<div class="carousel-image-size">
+<a href="https://www.stashfin.com/#"><img loading="lazy" src="https://static.stashfin.com/website/assets/images/health.png" alt="Health" class="img-fluid"></a>
+</div>
+<div class="carousel-text">
+<h4 class="font-weight-custom m-2">Health</h4>
+<p class="m-2 text-center text-justify">Exhausted the limit on your medical policy? Does <br class="res-none">the hospital not have claims tie-up with your insurance<br class="res-none"> company? Focus on the well being of your loved ones<br class="res-none"> without worrying about funds</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="nocolor-section">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+<p class="font-bold-30px">About StashFin</p>
+<p>StashFin is a company built by a team of passionate financial services professionals who have a collective experience of over 40 years in the industry. StashFin aspires to provide a transparent, frictionless and instant personal loan experience, in a safe and secure manner</p>
+<a href="https://www.stashfin.com/about-us" class="arrow-link">Know more</a> 
+</div>
+</div>
+</div>
+</section>
+</div>
+
+<div id="modal_app_download" class="modal modal_app_download">
+<div class="modal-dialog" style="position: absolute;margin: 0;width: 100%;bottom:0;">
+<div class="modal-content">
+<div class="modal-body" style="background: #da8888d9;">
+<div class="row">
+<div class="col-2 pd-0"><img src="https://static.stashfin.com/website/assets/images/logo-popup2.png" title="StashFin Login" alt="StashFin Login" style="width: 50px;
+    height: 50px;"></div>
+<div class="col-6" style="padding: 0 0 0 15px !important;font-size:8px;"><p style="margin: 7px 0 0;">Download Stashfin App for a better <br>experience and earn exciting rewards!</p></div>
+<div class="col-4" style="font-size:8px;"><a href="https://stash.page.link/app" class="btn btn-primary mb-4 download-app" target="_blank" style="border-radius: 5px;font-size: 10px;min-width: 57px;min-height: 26px;width: 25%;height: 10px;font-size:8px;padding:8px;margin:0 !important;">Download </a>
+<button type="button" class="popup-close1" data-dismiss="modal" aria-label="Close" style="background:no-repeat;border:none;font-size: 25px;line-height: normal;display: inline-block;vertical-align: middle;">
+<span aria-hidden="true">×</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var app_click = 0;
+</script>
+
+
+<footer class="dark-color-section">
+<div class="container custom-border-bottom">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+<p class="font-bold-30px">Rate and Terms</p>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+<p>Our loans range from ₹1000 to ₹5,00,000 with repayment periods starting from 3 months to 36 months.
+We offer interest rates ranging from 11.99% - 59.99% APR (Annual Percentage Rate),
+however rates may vary case to case. All loans are paid through Equal Monthly Installments (EMIs) via electronic payment. We do charge low processing fees and have no other hidden costs.</p>
+<p>Example: If a customer takes a loan of ₹10,000 for a period of 3 months, at an annual interest rate of 11.99% APR, then the customer will pay an EMI for 3 months of ₹3,400 per month.
+Total payment over 3 months will be ₹10,200 (including principal and Interest).</p>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+<ul class="play-style">
+<li><a href="https://www.stashfin.com/">Home</a></li>
+<li><a href="https://www.stashfin.com/why-us">Why Us</a></li>
+<li><a href="https://www.stashfin.com/about-us">About Us</a></li>
+<li><a href="https://www.stashfin.com/faqs">FAQs</a></li>
+<li><a href="https://www.stashfin.com/careers">Careers</a></li>
+<li><a href="https://www.stashfin.com/privacy-policy">Privacy Policy</a></li>
+<li><a href="https://www.stashfin.com/terms-and-conditions">Terms and Conditions</a></li>
+<li><a href="https://www.stashfin.com/news">News</a></li>
+<li><a href="https://www.stashfin.com/Partners">Partners</a></li>
+<li><a href="https://blog.stashfin.com/" target="_blank">Blog</a></li>
+<li><a href="https://www.stashfin.com/contact-us">Customer Service</a></li>
+<li><a href="https://www.stashfin.com/Employee-Expense-Management-Program">Employee Expense Management Program</a></li>
+
+</ul>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+<ul class="play-style">
+<li><a href="https://www.stashfin.com/quick-personal-loans">Quick Personal Loans</a></li>
+<li><a href="https://www.stashfin.com/cash-loans">Cash Loans</a></li>
+<li><a href="https://www.stashfin.com/small-loans">Small Loans</a></li>
+<li><a href="https://www.stashfin.com/instant-loans">Instant Loans</a></li>
+<li><a href="https://www.stashfin.com/marriage-loan">Marriage Loan</a></li>
+<li><a href="https://www.stashfin.com/private-loans">Private Loans</a></li>
+<li><a href="https://www.stashfin.com/unsecured-loans">Unsecured Loans</a></li>
+<li><a href="https://www.stashfin.com/low-interest-loans">Low Interest Loans</a></li>
+<li><a href="https://www.stashfin.com/medical-loan">Medical Loan</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-documents">Personal Loan Documents</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-interest-rate">Personal Loan Interest Rate</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-eligibility">Personal Loan Eligibility</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-for-shopping">Personal Loan for Shopping</a></li>
+<li><a href="https://www.stashfin.com/home-renovation-loan">Home Renovation Loan</a></li>
+<li><a href="https://www.stashfin.com/debt-consolidation-loan">Debt Consolidation Loan</a></li>
+<li><a href="https://www.stashfin.com/travel-loan-holiday-loan">Travel Loan/Holiday Loan</a></li>
+</ul>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+<ul class="play-style">
+<li><a href="https://www.stashfin.com/mobile-loan">Mobile Loans</a></li>
+<li><a href="https://www.stashfin.com/laptop-loan">Laptop Loans</a></li>
+<li><a href="https://www.stashfin.com/consumer-durable-loan">Consumer Durable Loan</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-in-delhi">Personal Loan in Delhi</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-in-noida">Personal Loan in Noida</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-in-gurgaon">Personal Loan in Gurgaon</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-in-chandigarh">Personal Loan in Chandigarh</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-in-bangalore">Personal Loan in Bangalore</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-in-hyderabad">Personal Loan in Hyderabad</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-in-indore">Personal Loan in Indore</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-in-mumbai">Personal Loan in Mumbai</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-in-pune">Personal Loan in Pune</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-in-chennai">Personal Loan in Chennai</a></li>
+<li><a href="https://www.stashfin.com/personal-loans-for-salaried">Personal Loans for Salaried</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-for-self-employed">Personal Loans for Self Employed</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12">
+<p class="font-bold-30px mt-3">Cities</p>
+
+<ul class="dash-style pl-0 footer-cities">
+
+<li><a href="https://www.stashfin.com/personal-loan-in-delhi" title="Delhi NCR">Delhi NCR</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-in-chandigarh" title="Chandigarh">Chandigarh</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-in-bangalore" title="Bangalore">Bangalore</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-in-hyderabad" title="Hyderabad">Hyderabad</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-in-indore" title="Indore">Indore</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-in-mumbai" title="Mumbai">Mumbai</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-in-pune" title="Pune">Pune</a></li>
+<li><a href="https://www.stashfin.com/personal-loan-in-chennai" title="Chennai">Chennai</a></li>
+<li><a href="https://blog.stashfin.com/personal-loan-in-lucknow/">Lucknow</a></li>
+<li><a href="https://blog.stashfin.com/personal-loan-in-bhopal/">Bhopal</a></li>
+<li><a href="https://blog.stashfin.com/personal-loan-in-agra/">Agra</a></li>
+<li><a href="https://blog.stashfin.com/personal-loan-in-dehradun/">Dehradun</a></li>
+<li><a href="https://blog.stashfin.com/personal-loan-in-kanpur/">Kanpur</a></li>
+<li><a href="https://blog.stashfin.com/personal-loan-in-nagpur/">Nagpur</a></li>
+<li><a href="https://blog.stashfin.com/personal-loan-in-aurangabad/">Aurangabad</a></li>
+<li><a href="https://blog.stashfin.com/personal-loan-in-madurai/">Madurai</a></li>
+<li><a href="https://blog.stashfin.com/personal-loan-in-salem/">Salem</a></li>
+<li><a href="https://blog.stashfin.com/personal-loan-in-rajkot/">Rajkot</a></li>
+<li><a href="https://blog.stashfin.com/personal-loans-in-kurnool/">Kurnool</a></li>
+<li><a href="https://blog.stashfin.com/personal-loan-in-vellore/">Vellore</a></li>
+<li><a href="https://blog.stashfin.com/personal-loan-in-krishna-andhra-pradesh/">Krishna-andhra-pradesh</a></li>
+<li><a href="https://blog.stashfin.com/personal-loan-in-warangal/">Warangal</a></li>
+<li><a href="https://blog.stashfin.com/personal-loan-in-anantapur/">Anantapur</a></li>
+<li><a href="https://blog.stashfin.com/personal-loan-in-patna/">Patna</a></li>
+<li><a href="https://blog.stashfin.com/personal-loan-in-karimnagar/">Karimnagar</a></li>
+<li><a href="https://blog.stashfin.com/personal-loan-in-ludhiana/">Ludhiana</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container mt-3 footer-wrap">
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+<p class="font-bold-30px">Available on</p>
+</div>
+<div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
+<div class="app-sec">
+<a href="https://apps.apple.com/us/app/stashfin/id1276990457" target="_blank"><img loading="lazy" src="https://static.stashfin.com/website/assets/images/app-store-ic.png" alt="App Store Stashfin" class="img-fluid"></a>
+<a href="https://play.google.com/store/apps/details?id=com.stashfin.android" target="_blank"><img loading="lazy" src="https://static.stashfin.com/website/assets/images/google-play-ic.png" alt="Google Play Stashfin" class="img-fluid"></a>
+</div>
+<div class="social-sec text-right">
+<a href="https://www.facebook.com/stashfin.official" target="_blank"><i class="custom-circle fa fa-facebook" aria-hidden="true"></i></a>
+<a href="https://www.youtube.com/channel/UCyjtuSfqPbbHcu07CZ1eqEg" target="_blank"><i class="custom-circle fa fa-youtube" style="padding:7px" aria-hidden="true"></i></a>
+<a href="https://www.instagram.com/stashfin_" target="_blank"><i class="custom-circle fa fa-instagram" aria-hidden="true"></i></a>
+<a href="https://in.linkedin.com/company/stashfin" target="_blank"><i class="custom-circle fa fa-linkedin" style="padding:7px" aria-hidden="true"></i></a>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 poweredBy_container text-center">
+<h5>Powered by </h5>
+<p>Akara Capital Advisors (RBI Registerd NBFC)</p>
+</div>
+</div>
+</div>
+<div class="top-arrow" style="display: none;">
+<a href="javascript:void(0)" id="scrollTop"><i class="fa fa-angle-up"></i></a>
+</div>
+</div></footer>
+<div class="custom-popup" id="popup_homepagevideo">
+<div class="modal-content bor-rad-10" style="margin-top: 80px; margin-left: 130px; height:590px; width:1010px;">
+<div class="modal-header border-bottom-0 pb-0">
+<button type="button" class="close popup-close">
+<img loading="lazy" src="https://static.stashfin.com/website/assets/images/cross.png" title="close" alt="close" class="img-fluid">
+</button>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-2f7d71d18eb2f3cec98","applicationID":"800718848","transactionName":"NAEGZkFTXEpRW0QLXQ1LJVFHW11XH3BfD1dMDQpWVko=","queueTime":0,"applicationTime":19,"atts":"GEYFEAlJT0Q=","errorBeacon":"bam.nr-data.net","agent":""}</script><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon="{&quot;rayId&quot;:&quot;70d4a9491faf9632&quot;,&quot;token&quot;:&quot;dbd481211ed54f6e8727a9a8957e7346&quot;,&quot;version&quot;:&quot;2021.12.0&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript" src="./stashfin_files/jquery.min.js.download"></script>
+<script type="text/javascript" src="./stashfin_files/popper.min.js.download"></script>
+<script type="text/javascript" src="./stashfin_files/bootstrap.min.js.download"></script>
+<script type="text/javascript" src="./stashfin_files/aos.js.download"></script>
+<script type="text/javascript" src="./stashfin_files/jquery-ui.js.download"></script>
+<script type="text/javascript" src="./stashfin_files/stashfin-custom.js.download"></script>
+<script type="text/javascript" src="./stashfin_files/custom_function.js.download"></script>
+
+<script type="text/javascript" src="./stashfin_files/custom_homepage_v2.js.download"></script>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
+<script src="./stashfin_files/firebase_analytics.js.download" type="text/javascript"></script>
+<script>
+	var jquerycss = document.createElement('link')
+	jquerycss.rel = 'stylesheet'
+	jquerycss.href = 'https://static.stashfin.com/website/assets/css/jquery-ui.css'
+	jquerycss.type = 'text/css'
+	var godefer3 = document.getElementsByTagName('link')[0]
+	godefer3.parentNode.insertBefore(jquerycss, godefer3)
+</script>
+<script>
+	var fontAwesome = document.createElement('link')
+	fontAwesome.rel = 'stylesheet'
+	fontAwesome.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
+	fontAwesome.type = 'text/css'
+	var godefer2 = document.getElementsByTagName('link')[0]
+	godefer2.parentNode.insertBefore(fontAwesome, godefer2)
+</script>
+
+<script>
+	// document.getElementById("applicantName").addEventListener("change", myFunction);
+
+	$(function () {
+		var head = document.getElementsByTagName('head')[0];
+		var script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.src = 'https://www.google.com/recaptcha/api.js?onload=renderReCaptcha&render=explicit';
+		head.appendChild(script);
+	});
+</script>
+<script type="text/javascript">
+	// document.getElementById("terms").addEventListener("click", function() {
+		function renderReCaptcha() {
+			if ( $('#captcha_container').length ) {
+		captchaContainer = grecaptcha.render('captcha_container', {
+			'sitekey': "6LcQT74UAAAAAPoX3-ys5wwFeGgRLWcmzymvrnyp",
+			'callback': function(response) {
+				console.log(response);
+			}
+		});
+	}
+	}
+</script>
+<script>
+		$(function(){
+    var isMobile = /iPhone|Android/i.test(navigator.userAgent);
+        if (isMobile == false) {
+            
+window.ymConfig = { bot: 'x1592473088359' };  (function () {var w=window,ic=w.YellowMessenger;
+if("function"===typeof ic)ic("reattach_activator"),ic("update",ymConfig);else{var d=document,i=function()
+{i.c(arguments)};function l(){var e=d.createElement("script");e.type="text/javascript",e.async=!0,
+e.src="https://app.yellowmessenger.com/widget/main.js";var t=d.getElementsByTagName("script")[0];
+t.parentNode.insertBefore(e,t)}i.q=[],i.c=function(e){i.q.push(e)},w.YellowMessenger=i,
+w.attachEvent?w.attachEvent("onload",l):w.addEventListener("load",l,!1)}})();
+        }
+});
+</script>
+
+
+<div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge expires in two minutes" src="./stashfin_files/bframe.html" name="c-he8y5ug5uha3" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 100%; height: 100%;"></iframe></div></div><style>@font-face {    font-family:  botplatform-font;    src: url('https://cdn.yellowmessenger.com/files/fonts/proximanova-regular.a7942249.woff') format('woff');}@font-face {    font-family:  botplatform-font;    src: url('https://cdn.yellowmessenger.com/files/fonts/proximanova-semibold.46e3f047.woff') format('woff');    font-weight: 700;}@font-face {    font-family:  botplatform-font;    src: url('https://cdn.yellowmessenger.com/files/fonts/proximanova-regular-italic.053a1112.woff') format('woff');    font-style: italic;}@font-face {    font-family:  botplatform-font;    src: url('https://cdn.yellowmessenger.com/files/fonts/proximanova-semibold-italic.660bf63e.woff') format('woff');    font-weight: 700;    font-style: italic;}</style><div id="ymPluginDivContainerInitial" style="display: block;"><div role="button" tabindex="0" id="ymDivCircle" class="ym_animated ym_one ym_bounce ym_slow ym_delay-0s" style="display: block; background-color: rgb(165, 32, 37); background-image: none; height: 75px; width: 75px;"><img src="https://cdn.yellowmessenger.com/8VOZ2EDQosoU1637824526566.jpg" alt="Sasha" style="background: rgb(165, 32, 37); height: 75px; width: 75px;"></div>                 <div id="ym-notification" class="hide ym-hidden "><div tabindex="1" class="ym-close" onclick="window.ymCloseNotification(event);">x</div><div style="font-weight: bold;">Sasha</div>I'm Sasha, To begin please let me know if you are new to StashFin or have already registered your number with StashFin</div>                 <div id="ymFrameHolder" class="" style="display: none; bottom: 110px;">                 <div class="ym-loading-spinner" style="display: none;">                  <div class="ym-double-bounce1"></div>                  <div class="ym-double-bounce2"></div>                </div>                    <iframe scrolling="yes" allowtransparency="true" frameborder="0" allowfullscreen="" name="ymIframe" id="ymIframe" style="height: calc(100vh - 120px);" src="./stashfin_files/saved_resource(2).html"></iframe>                 </div></div></body></html>

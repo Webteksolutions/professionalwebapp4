@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssfiles/mainpage.css">
+    <link rel="stylesheet" href="cssfiles/subpage.css">
+    <link rel="stylesheet" href="cssfiles/owl.carousel.css">
+    <link rel="stylesheet" href="cssfiles/owl.theme.green.css">
+    <!--  -->
+    <script src="jsfiles/jquery.min.js"></script>
+    <script src="jsfiles/owl.carousel.min.js"></script>
+    <!--  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>About LAC Legal LLP</title>
+    <meta name="description" content="LAC Legal LLP">
+    <meta name="keywords" content="LAC Legal LLP">
+    <meta name="author" content="The idea of LAC Legal LLP was conceived after extensive transactions">
+    <!-- <link rel = "icon" type = "image/png" href = "images/logo.jpg"> -->
+    <style>
+        .team-area{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            background: #ddd;
+          
+        }
+        .team-area .single-team img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+        }
+        .single-team{
+            width:300px;
+            height: 400px;
+            padding: 20px;
+            box-sizing: border-box;
+            background: #fff;
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            transition: .6s ease-out;
+            box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+        }
+        .single-team:hover{
+                transform: translateY(25px);
+        }
+        .single-team:hover:before{
+              opacity: 1;
+
+        }
+        .single-team:hover .ream-text{
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .single-team:before{
+            content: ' ';
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, #000, transparent);
+            z-index: 2;
+            transition: 0.5s;
+            opacity: 0;
+        }
+    .single-team .ream-text{
+        position: relative;
+        z-index: 3;
+        color: #fff;
+        opacity: 0;
+        transform: translateY(60px);
+        transition: 0.5s;
+
+        }
+        .ream-text h2{
+            margin: 0;
+            font-family: Shrikhand;
+            letter-spacing: 3px;
+
+        }
+        .ream-text p{
+            letter-spacing: 1px;
+            font-size: 15px;
+            margin-top: 8px;
+            font-family: poppings;
+        }
+        .ream-text a{
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            margin: 0 5px;
+            text-decoration: none;
+
+        }
+        .ream-text a i{
+            color: #fff;
+            padding: 10px 10px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    
+     <!-- navbar -->
+     <section class="sectionofnavbar  sticky-top" style="background-color: #3f171b;">
+        <nav class="navbar navbar-expand-lg navbar-light " style="padding-top:0px;padding-bottom:0px;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/banners/laclogo.png" alt="" width="90" height="40" style="filter: invert(1);">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0" style="font-size: 20px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"
+                                style="color: #fff;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html" style="color: #fff;">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.html" style="color: #fff;">Profile</a>
+                        </li>
+
+
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="OurPresence.html" style="color: #fff;">Our Presence</a>
+                        </li>
+            
+                        <li class="nav-item dropdown" style="color: #fff;">
+                            <a class="nav-link dropdown-toggle" style="color: #fff;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                               Our Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="civilservices.html">Civil</a></li>
+                              <li><a class="dropdown-item" href="criminalservices.html">Criminal</a></li>
+                              <li><a class="dropdown-item" href="ontherservices.html">Other</a></li>
+                             
+                            </ul>
+                          </li> -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li> -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="profile.html" style="color: #fff;">Profile</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="panneladvocates.html" style="color: #fff;">Panel Advocates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html" style="color: #fff;">Contact Us</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- crasoul -->
+   <section class="panelad">
+       <img src="images/mainservices/panerl.jpg" style="width: 100%;" class="img-fluid" alt="">
+   </section>
+    <br>
+    <!-- aboutsection -->
+  <section class="container" >
+      <h2 style="text-align: center;">We will update soon</h2>
+  </section>
+   
+
+</section> 
+<br>
+
+
+<br>
+<!-- footer -->
+<!-- footer -->
+<section class="footer myfooter" style="background-color: bLACk;">
+    <br>
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <div class="mypic">
+                            <!-- <img src="images/mee2.png" alt="" srcset=""> -->
+                        </div>
+                        <h4 class="text-white">LAC Legal LLP</h4>
+                        <p class="text-white" style="font-size: 15px;">
+                            <span style="font-weight:800;font-size:20px;">Registered Office</span>
+                            <br>
+                            E 334,PALAM VIHAR EXTN,GURUGRAM,<br> Gugaon,Haryana,122017,India
+                            <br>
+                        <h4 class="text-white">Useful Links</h4>
+                        <ul>
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" style="color: #ffffff;" href="https://main.sci.gov.in/">
+                                       </i>Supreme Court of India</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" style="color: #ffffff;" href="https://delhihighcourt.nic.in/">
+                                       </i>Delhi High Court</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" style="color: #ffffff;" href="https://www.allahabadhighcourt.in/">
+                                       </i>ALLAHABAD HIGH COURT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" style="color: #ffffff;" href="https://ecourts.gov.in/ecourts_home/">
+                                       </i>E-courts</a>
+                            </li>
+
+                        </ul>
+                       
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+
+                        <p class="text-white" style="font-size: 15px;">
+
+                            <span style="font-weight:800;font-size:20px;"> Branch Office </span>
+                            <br>
+                            Chamber No. 1108, <br>
+                            Civil Court, <br>
+                            RajNagar(Ghaziabad), <br>
+                            U.P.(201002)
+
+                        </p>
+                        <br>
+                        <h4 class="text-white">Our Services</h4>
+                        <ul>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: #ffffff;" href=""><i class="fa fa-envelope-o"
+                                        aria-hidden="true"></i> Service one</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: #ffffff;" href=""><i class="fa fa-envelope-o"
+                                        aria-hidden="true"></i> Privacy Policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: #ffffff;" href=""><i class="fa fa-envelope-o"
+                                        aria-hidden="true"></i> T & C</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links mt-4">
+                        <p class="text-white" style="font-size: 15px;">
+                            <strong class="text-white">Phone:</strong> +91-9910458560 <br>
+                            <strong class="text-white"></strong>  <br>
+                            <strong class="text-white">WhatsApp:</strong> +91-9910458560 <br>
+                            <strong class="text-white"></strong> 
+                            <br>
+                            <strong class="text-white">Email:</strong>laclegalllp@gmail.com<br>
+                        </p>
+
+
+
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28051.02342795715!2d77.03077855468071!3d28.498275093874106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d199bd7cdab55%3A0xe18f10bb40c3e793!2sPalam%20Vihar%20Extension%2C%20Gurugram%2C%20Haryana%20122022!5e0!3m2!1sen!2sin!4v1652866287452!5m2!1sen!2sin"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container d-md-flex py-4 socialsection">
+                <!-- <div class="mr-md-auto text-center text-md-left">
+<div class="copyright text-white" style="font-size: 10px;">
+&copy; Copyright <strong><span>company</span></strong>All Rights Reserved
+</div>
+<div class="credits text-white">
+Designed & Developed by <a href="https://www.instagram.com/akshay_agg_boxer/">Agranshu (Slanzapanika)</a>
+</div>
+
+</div> -->
+                <div class="social-links text-center text-md-right pt-3 px-1 pt-md-0 "
+                    style="display: block; margin-left: auto;margin-right: auto;">
+                    <a href=""> <i class="fa fa-facebook  fa-3x" aria-hidden="true"></i> </a>
+                    <a href=""> <i class="fa fa-youtube fa-3x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+                    <a href=""> <i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="container" style="text-align: center;">
+                <div class="copyright text-white" style="font-size: 10px;">
+                    &copy; Copyright <strong><span>company</span></strong>All Rights Reserved to LAC Legal LLP
+                </div>
+                <div class="credits text-white" style="font-size: 10px;">
+                    Designed & Developed by <a href="https://slanzapanika.com/">
+                        Slanzapanika</a>
+                </div>
+            </div>
+    </footer>
+</section>
+
+<!-- whatsapp enquiry -->
+<div class="centerwalatwo">
+    <a href="https://wa.me/919350078876"> <img src="images/banners/finalwhatsap.png" alt=""
+            class=" pulsewalatwo"></a>
+</div>
+<!-- enquiry pulse -->
+<div class="centerwala">
+    <a href="tel:9350078876" class="pulsewala"><i class="fa fa-phone fa-2x" aria-hidden="true"
+            style="color: bLACk;"></i> </a>
+</div>
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = '1df76a9405c15ec45aa76c81d55cdce17dafcd6f';
+        window.smartsupp || (function (d) {
+            var s, c, o = smartsupp = function () { o._.push(arguments) }; o._ = [];
+            s = d.getElementsByTagName('script')[0]; c = d.createElement('script');
+            c.type = 'text/javascript'; c.charset = 'utf-8'; c.async = true;
+            c.src = 'https://www.smartsuppchat.com/loader.js?'; s.parentNode.insertBefore(c, s);
+        })(document);
+    </script>
+    <!--  -->
+    <script>
+        let containerqa = document.querySelector(".containerqa");
+      let containerqaitem = containerqa.querySelectorAll(".item");
+      for(let i=0; i<containerqaitem.length; i++){
+          let questionitem = containerqaitem[i].querySelector(".question");
+          questionitem.addEventListener("click",function(){
+              if(containerqaitem[i].classList.contains("active")){
+                  containerqaitem[i].classList.remove("active")
+              } else {
+                  try{
+                      containerqa.querySelector(".active").classList.remove("active");
+                  } catch(msg){}
+                  containerqaitem[i].classList.add("active");
+              }
+          });
+      }
+      </script>
+    <!--  -->
+     <!-- Smartsupp Live Chat script -->
+     <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = '1df76a9405c15ec45aa76c81d55cdce17dafcd6f';
+        window.smartsupp || (function (d) {
+            var s, c, o = smartsupp = function () { o._.push(arguments) }; o._ = [];
+            s = d.getElementsByTagName('script')[0]; c = d.createElement('script');
+            c.type = 'text/javascript'; c.charset = 'utf-8'; c.async = true;
+            c.src = 'https://www.smartsuppchat.com/loader.js?'; s.parentNode.insertBefore(c, s);
+        })(document);
+    </script>
+    <!--  -->
+    <!--  -->
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            smartSpeed: 1500,
+            animateIn: 'linear',
+            animateOut: 'linear',
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
